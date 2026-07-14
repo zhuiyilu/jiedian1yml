@@ -3,7 +3,7 @@ name: 自动发现 + 聚合 + 测速 + 筛选最佳100
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 */8 * * *'
+    - cron: '17 */8 * * *'
 
 permissions:
   contents: write
@@ -654,10 +654,22 @@ jobs:
               'aes-128-cfb', 'aes-192-cfb', 'aes-256-cfb',
               'aes-128-ctr', 'aes-192-ctr', 'aes-256-ctr',
               'chacha20-ietf-poly1305', 'xchacha20-ietf-poly1305',
-              'chacha20-poly1305', 'chacha20', 'chacha20-ietf', 'xchacha20',
+              'chacha20', 'chacha20-ietf', 'xchacha20',
               'rc4-md5', 'none',
               '2022-blake3-aes-128-gcm', '2022-blake3-aes-256-gcm',
               '2022-blake3-chacha20-poly1305',
+          }
+
+          # 一些节点提供方会用旧版/非标准别名命名 cipher，
+          # clash 内核并不认识这些别名，需要先转换成标准名称再校验
+          CIPHER_ALIASES = {
+              'chacha20-poly1305': 'chacha20-ietf-poly1305',
+              'chacha20poly1305': 'chacha20-ietf-poly1305',
+              'aead_chacha20_poly1305': 'chacha20-ietf-poly1305',
+              'xchacha20-poly1305': 'xchacha20-ietf-poly1305',
+              'aead_xchacha20_poly1305': 'xchacha20-ietf-poly1305',
+              'aead_aes_128_gcm': 'aes-128-gcm',
+              'aead_aes_256_gcm': 'aes-256-gcm',
           }
 
           def ss_proxy(link, used):
@@ -679,6 +691,7 @@ jobs:
                       method, password = mp.split(':', 1)
                       host, port = hp.split(':'); port = int(port)
                   method = (method or '').strip().lower()
+                  method = CIPHER_ALIASES.get(method, method)  # 别名 → 标准名称
                   # 加密方式非法/解析出乱码 → 直接丢弃该节点，避免污染整份订阅
                   if method not in VALID_SS_CIPHERS:
                       return None
