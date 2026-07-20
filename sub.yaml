@@ -3,35 +3,556 @@ allow-lan: false
 mode: rule
 log-level: info
 proxies:
-- name: By EbraSha 🤖
-  type: vless
-  server: 45.131.5.106
-  port: 2053
-  uuid: ee2bb495-2632-445b-b1f8-3c476a50b78b
-  udp: true
-  network: ws
-  tls: true
-  servername: dl1-pl-cdn.easy-upload.org
-  client-fingerprint: random
-  ws-opts:
-    path: /
-    headers:
-      Host: dl1-pl-cdn.easy-upload.org
-- name: 🏁RELAY-188.114.96.2-0874
+- name: By EbraSha 🦈
   type: vmess
-  server: 188.114.96.2
-  port: 2087
-  uuid: 8c65cbad-923d-4f73-c653-83c75ca4e1aa
+  server: 82.198.246.37
+  port: 180
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
   alterId: 0
   cipher: auto
   udp: true
-  network: grpc
-  tls: true
-  grpc-opts:
-    grpc-service-name: /
-- name: By EbraSha 🛜
+- name: By EbraSha 🎛️
   type: vmess
-  server: 172.67.167.78
+  server: 82.198.246.9
+  port: 180
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  alterId: 0
+  cipher: auto
+  udp: true
+- name: By EbraSha 🚧
+  type: vmess
+  server: 82.198.246.97
+  port: 180
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  alterId: 0
+  cipher: auto
+  udp: true
+- name: By EbraSha 🚀
+  type: ss
+  server: 172.245.235.84
+  port: 2375
+  cipher: aes-256-gcm
+  password: faBAoD54k87UJG7
+  udp: true
+- name: shadowsocks-21616316
+  type: ss
+  server: 107.172.219.230
+  port: 2096
+  cipher: chacha20-ietf-poly1305
+  password: 768b923a-4918-46ad-96e7-9cf5543ddc4c
+  udp: true
+- name: By EbraSha ✨
+  type: ss
+  server: 138.199.42.68
+  port: 8080
+  cipher: rc4-md5
+  password: 14fFPrbezE3HDZzsMOr6
+  udp: true
+- name: By EbraSha 🛜
+  type: ss
+  server: 108.181.57.93
+  port: 8388
+  cipher: chacha20-ietf-poly1305
+  password: RSo52SbxW40r
+  udp: true
+- name: By EbraSha 🌀
+  type: ss
+  server: 198.98.53.130
+  port: 443
+  cipher: chacha20-ietf-poly1305
+  password: eDfN7SODQceIOmIAbtJJtK
+  udp: true
+- name: By EbraSha 🚀-2
+  type: ss
+  server: 185.196.61.82
+  port: 8080
+  cipher: aes-256-gcm
+  password: KixLvKzwjekG00rm
+  udp: true
+- name: By EbraSha 🕶️
+  type: ss
+  server: 212.193.6.152
+  port: 20111
+  cipher: aes-256-gcm
+  password: 2803361d6c196af8
+  udp: true
+- name: 🇺🇸US_1037|8.8MB/s
+  type: trojan
+  server: golden-dane.rooster465.autos
+  port: 443
+  password: IQ68037294
+  udp: true
+  sni: golden-dane.rooster465.autos
+- name: 🇺🇸US_1039|9.0MB/s
+  type: trojan
+  server: integral-elf.rooster465.autos
+  port: 443
+  password: IQ68037294
+  udp: true
+  sni: integral-elf.rooster465.autos
+- name: By EbraSha 🧠
+  type: ss
+  server: 68.168.222.210
+  port: 1234
+  cipher: chacha20-ietf-poly1305
+  password: zz0dHjDfoaSaZuRFLGH-hNfBALSEJUYD
+  udp: true
+- name: By EbraSha 🐺
+  type: ss
+  server: 147.90.234.133
+  port: 443
+  cipher: chacha20-ietf-poly1305
+  password: 01iK5R1qq8MGGUyN9P20au
+  udp: true
+- name: 🇺🇸US_1041|8.7MB/s
+  type: trojan
+  server: concise-lacewing.rooster465.autos
+  port: 443
+  password: IQ68037294
+  udp: true
+  sni: concise-lacewing.rooster465.autos
+- name: By EbraSha 👑
+  type: ss
+  server: 185.188.106.10
+  port: 443
+  cipher: none
+  password: RSzEIkk2EsHEAVj15N5E/A==
+  udp: true
+- name: By EbraSha ♠️
+  type: ss
+  server: 185.188.104.11
+  port: 443
+  cipher: none
+  password: RSzEIkk2EsHEAVj15N5E/A==
+  udp: true
+- name: By EbraSha ✨-2
+  type: ss
+  server: 185.188.104.12
+  port: 443
+  cipher: none
+  password: RSzEIkk2EsHEAVj15N5E/A==
+  udp: true
+- name: By EbraSha ⛓️
+  type: ss
+  server: 141.164.45.187
+  port: 5001
+  cipher: aes-256-gcm
+  password: Y6R9pAtvxxzmGC
+  udp: true
+- name: By EbraSha 🦾
+  type: ss
+  server: 141.164.45.187
+  port: 8000
+  cipher: aes-256-gcm
+  password: KixLvKzwjekG00rm
+  udp: true
+- name: shadowsocks-165
+  type: ss
+  server: 146.70.61.37
+  port: 8080
+  cipher: rc4-md5
+  password: 14fFPrbezE3HDZzsMOr6
+  udp: true
+- name: shadowsocks-59461877
+  type: ss
+  server: 18.171.62.49
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
+  udp: true
+- name: shadowsocks-59461878
+  type: ss
+  server: 3.8.78.225
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
+  udp: true
+- name: 🇬🇧GB_38|2.8MB/s|A001-260618
+  type: ss
+  server: 13.135.169.180
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
+  udp: true
+- name: By EbraSha ⛓️-2
+  type: ss
+  server: 141.164.45.187
+  port: 8008
+  cipher: aes-256-gcm
+  password: XKFKl2rULjIp74
+  udp: true
+- name: By EbraSha 🛰️
+  type: ss
+  server: 141.164.45.187
+  port: 6697
+  cipher: aes-256-gcm
+  password: TEzjfAYq2IjtuoS
+  udp: true
+- name: shadowsocks-56203963
+  type: ss
+  server: 3.71.12.190
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
+  udp: true
+- name: 🇩🇪DE_84|3.2MB/s|P002-260618
+  type: ss
+  server: 3.126.251.203
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
+  udp: true
+- name: shadowsocks-51760992
+  type: ss
+  server: 3.122.115.111
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
+  udp: true
+- name: shadowsocks-62231903
+  type: ss
+  server: 54.93.186.149
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
+  udp: true
+- name: 🇯🇵JP_63|3.5MB/s
+  type: trojan
+  server: busy-slug.rooster465.autos
+  port: 443
+  password: IQ68037294
+  udp: true
+  sni: busy-slug.rooster465.autos
+- name: 🇯🇵JP_50|3.6MB/s
+  type: trojan
+  server: square-anchovy.rooster465.autos
+  port: 443
+  password: IQ68037294
+  udp: true
+  sni: square-anchovy.rooster465.autos
+- name: 🇯🇵JP_60|4.9MB/s
+  type: trojan
+  server: stirring-bat.rooster465.autos
+  port: 443
+  password: IQ68037294
+  udp: true
+  sni: stirring-bat.rooster465.autos
+- name: 🇯🇵JP_54|3.0MB/s
+  type: trojan
+  server: major-duckling.rooster465.autos
+  port: 443
+  password: IQ68037294
+  udp: true
+  sni: major-duckling.rooster465.autos
+- name: 🇯🇵JP_51|4.7MB/s
+  type: trojan
+  server: saving-sawfly.rooster465.autos
+  port: 443
+  password: IQ68037294
+  udp: true
+  sni: saving-sawfly.rooster465.autos
+- name: By EbraSha 🦇
+  type: vmess
+  server: 129.146.143.80
+  port: 48111
+  uuid: d4603cc2-e0ee-4651-83f5-1db5b7168177
+  alterId: 0
+  cipher: auto
+  udp: true
+- name: 🇭🇰HK_111|1.6MB/s|K001-260618
+  type: ss
+  server: 212.192.13.82
+  port: 8388
+  cipher: aes-256-gcm
+  password: nAHm5OhuatX6
+  udp: true
+- name: 🇯🇵JP_47|2.8MB/s
+  type: trojan
+  server: evolving-grouper.rooster465.autos
+  port: 443
+  password: IQ68037294
+  udp: true
+  sni: evolving-grouper.rooster465.autos
+- name: shadowsocks-11086
+  type: ss
+  server: 185.123.101.64
+  port: 2376
+  cipher: aes-256-gcm
+  password: faBAoD54k87UJG7
+  udp: true
+- name: 🇳🇱NL_226|3.1MB/s
+  type: trojan
+  server: cheerful-swan.rooster465.autos
+  port: 443
+  password: IQ68037294
+  udp: true
+  sni: cheerful-swan.rooster465.autos
+- name: end-gfw.com22@kr64
+  type: vless
+  server: 43.201.75.86
+  port: 8686
+  uuid: 1a17b19d-4896-4531-af79-6e91d8ef8228
+  udp: true
+  tls: true
+  servername: www.apple.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: A3NXnUIT-W0m1Y_leRnv5so2IeCvk9FCFgL31PulfTw
+    short-id: 628b3c90c98ead4f
+- name: 🇳🇱 The Netherlands
+  type: vless
+  server: nlx.opngtr.nl
+  port: 443
+  uuid: 39c42b0a-b823-4c93-bb99-74b4183e518d
+  udp: true
+  network: xhttp
+  tls: true
+  servername: nlx.savesafe.space
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: XyVDRn9DwbR6_bZPiGGz0jgCONpfH5LVbDaUejtiuTA
+    short-id: 16f5b3bddf7f68ae
+- name: By EbraSha 🕹️
+  type: vmess
+  server: 67.220.72.237
+  port: 22324
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+  alterId: 0
+  cipher: auto
+  udp: true
+- name: FR - zhuhai.uk
+  type: hysteria2
+  server: fr2.h2corp.org
+  port: 443
+  password: qIg7TMxfJvx6t27er0c9P0osebAAPu2PYlB_aoWelV5kVVQ2
+  udp: true
+  sni: fr2.h2corp.org
+- name: hysteria2-24391
+  type: hysteria2
+  server: 62.210.124.146
+  port: 22000
+  password: dongtaiwang.com
+  udp: true
+  sni: www.microsoft.com
+  skip-cert-verify: true
+- name: 🇰🇷KR_37|3.1MB/s
+  type: trojan
+  server: accurate-drake.rooster465.autos
+  port: 443
+  password: IQ68037294
+  udp: true
+  sni: accurate-drake.rooster465.autos
+- name: 🇰🇷KR_50|2.4MB/s
+  type: trojan
+  server: arriving-hyena.rooster465.autos
+  port: 443
+  password: IQ68037294
+  udp: true
+  sni: arriving-hyena.rooster465.autos
+- name: 🇰🇷KR_57|2.0MB/s
+  type: trojan
+  server: closing-sailfish.rooster465.autos
+  port: 443
+  password: IQ68037294
+  udp: true
+  sni: closing-sailfish.rooster465.autos
+- name: 🇰🇷KR_46|2.4MB/s
+  type: trojan
+  server: game-flamingo.rooster465.autos
+  port: 443
+  password: IQ68037294
+  udp: true
+  sni: game-flamingo.rooster465.autos
+- name: 🇰🇷KR_51|3.4MB/s
+  type: trojan
+  server: robust-toucan.rooster465.autos
+  port: 443
+  password: IQ68037294
+  udp: true
+  sni: robust-toucan.rooster465.autos
+- name: 🇰🇷KR_41|3.1MB/s
+  type: trojan
+  server: flowing-gobbler.rooster465.autos
+  port: 443
+  password: IQ68037294
+  udp: true
+  sni: flowing-gobbler.rooster465.autos
+- name: 🇩🇪DE_100|2.6MB/s
+  type: trojan
+  server: enabling-gobbler.rooster465.autos
+  port: 443
+  password: IQ68037294
+  udp: true
+  sni: enabling-gobbler.rooster465.autos
+- name: 🇰🇷KR_59|1.8MB/s
+  type: trojan
+  server: free-tuna.rooster465.autos
+  port: 443
+  password: IQ68037294
+  udp: true
+  sni: free-tuna.rooster465.autos
+- name: 🇰🇷KR_38|2.6MB/s
+  type: trojan
+  server: premium-weevil.rooster465.autos
+  port: 443
+  password: IQ68037294
+  udp: true
+  sni: premium-weevil.rooster465.autos
+- name: 🇰🇷KR_54|3.1MB/s
+  type: trojan
+  server: shining-haddock.rooster465.autos
+  port: 443
+  password: IQ68037294
+  udp: true
+  sni: shining-haddock.rooster465.autos
+- name: 🇰🇷KR_63|2.7MB/s
+  type: trojan
+  server: definite-filly.rooster465.autos
+  port: 443
+  password: IQ68037294
+  udp: true
+  sni: definite-filly.rooster465.autos
+- name: 🇸🇬SG_54|2.6MB/s
+  type: trojan
+  server: full-mackerel.rooster465.autos
+  port: 443
+  password: IQ68037294
+  udp: true
+  sni: full-mackerel.rooster465.autos
+- name: 🇸🇬SG_58|2.0MB/s
+  type: trojan
+  server: electric-rhino.rooster465.autos
+  port: 443
+  password: IQ68037294
+  udp: true
+  sni: electric-rhino.rooster465.autos
+- name: 🇸🇬SG_59|2.5MB/s
+  type: trojan
+  server: happy-mutt.rooster465.autos
+  port: 443
+  password: IQ68037294
+  udp: true
+  sni: happy-mutt.rooster465.autos
+- name: 🇸🇬SG_52|2.4MB/s
+  type: trojan
+  server: brave-cattle.rooster465.autos
+  port: 443
+  password: IQ68037294
+  udp: true
+  sni: brave-cattle.rooster465.autos
+- name: 🇸🇬SG_65|861KB/s
+  type: trojan
+  server: open-eel.rooster465.autos
+  port: 443
+  password: IQ68037294
+  udp: true
+  sni: open-eel.rooster465.autos
+- name: 🇸🇬SG_50|2.1MB/s
+  type: trojan
+  server: sterling-vervet.rooster465.autos
+  port: 443
+  password: IQ68037294
+  udp: true
+  sni: sterling-vervet.rooster465.autos
+- name: 🇸🇬SG_60|2.4MB/s
+  type: trojan
+  server: casual-stallion.rooster465.autos
+  port: 443
+  password: IQ68037294
+  udp: true
+  sni: casual-stallion.rooster465.autos
+- name: 🇸🇬SG_51|1.5MB/s
+  type: trojan
+  server: whole-grub.rooster465.autos
+  port: 443
+  password: IQ68037294
+  udp: true
+  sni: whole-grub.rooster465.autos
+- name: 🇸🇬SG_67|2.2MB/s
+  type: trojan
+  server: meet-doe.rooster465.autos
+  port: 443
+  password: IQ68037294
+  udp: true
+  sni: meet-doe.rooster465.autos
+- name: 🇸🇬SG_56|637KB/s
+  type: trojan
+  server: giving-bird.rooster465.autos
+  port: 443
+  password: IQ68037294
+  udp: true
+  sni: giving-bird.rooster465.autos
+- name: 🇫🇮FI_2|512KB/s|B007-260618
+  type: hysteria2
+  server: assets.gateway-stream.com
+  port: 52018
+  password: elknam6l7izf3z71
+  udp: true
+  sni: assets.gateway-stream.com
+  obfs: salamander
+  obfs-password: 53cgqwhojoxri5lr
+- name: end-gfw.com12@sg89
+  type: vless
+  server: 13.214.199.136
+  port: 8686
+  uuid: 1a17b19d-4896-4531-af79-6e91d8ef8228
+  udp: true
+  tls: true
+  servername: www.apple.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: A3NXnUIT-W0m1Y_leRnv5so2IeCvk9FCFgL31PulfTw
+    short-id: 628b3c90c98ead4f
+- name: FI - zhuhai.uk
+  type: vless
+  server: api-1.de.orbit-escape.ru
+  port: 443
+  uuid: 27c1d725-629c-4e65-9271-d6f5df82c7e9
+  udp: true
+  tls: true
+  servername: api-1.de.orbit-escape.ru
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: u3oqf_4HsP_p0dXBGRDkK-OPYoAEo4DNq4NL85PZXyY
+    short-id: 12965a0cff5affd3
+  flow: xtls-rprx-vision
+- name: hysteria2-145042
+  type: hysteria2
+  server: 5.255.102.165
+  port: 443
+  password: LzMWgm6LaNWCm11bFTbynDPq2TqQj03t
+  udp: true
+  sni: www.microsoft.com
+  skip-cert-verify: true
+- name: 🇨🇭CH_1|516KB/s|B007-260618
+  type: hysteria2
+  server: assets.gateway-stream.com
+  port: 52016
+  password: elknam6l7izf3z71
+  udp: true
+  sni: assets.gateway-stream.com
+  obfs: salamander
+  obfs-password: fsc92dsh321o5h3r
+- name: 🇦🇱AL_1|566KB/s|A001-260618
+  type: hysteria2
+  server: assets.gateway-stream.com
+  port: 52000
+  password: elknam6l7izf3z71
+  udp: true
+  obfs: salamander
+  obfs-password: gu74jg3ym0e21zco
+- name: 🇧🇬BG_2|776KB/s|B007-260618
+  type: hysteria2
+  server: assets.gateway-stream.com
+  port: 52009
+  password: elknam6l7izf3z71
+  udp: true
+  sni: assets.gateway-stream.com
+  obfs: salamander
+  obfs-password: kf1lypzqidy6pimt
+- name: By EbraSha 👑-2
+  type: vmess
+  server: 104.21.57.84
   port: 8443
   uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
   alterId: 0
@@ -44,385 +565,89 @@ proxies:
     path: /lMnsZUN4/
     headers:
       Host: v2ray1.dozapp.xyz
-- name: By EbraSha 🔐
+- name: 🇯🇵JP_43|3.5MB/s
   type: trojan
-  server: 172.67.191.189
-  port: 2053
-  password: ZJU29smXwp
-  udp: true
-  sni: web2.teama.tk
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: k.teama.tk
-- name: ☁ @anonymouskeys
-  type: vless
-  server: 172.67.136.188
+  server: deciding-rattler.rooster465.autos
   port: 443
-  uuid: f5deb215-0e9e-4600-b231-3f737d0946ad
+  password: IQ68037294
   udp: true
-  network: ws
-  tls: true
-  servername: vpn4.rnmcnm.com
-  ws-opts:
-    path: /
-    headers: {}
-- name: 🇺🇸US_1618|10.8MB/s|V006-260618
-  type: vless
-  server: 91.193.59.1
-  port: 443
-  uuid: 68eee13f-1a7a-4761-b71e-83b997eeccf9
-  udp: true
-  network: ws
-  tls: true
-  servername: hh3md.6zkk.2p8.hh.hhyf.kdns.fr
-  client-fingerprint: chrome
-  ws-opts:
-    path: /?Telegram🇨🇳 @WangCai2
-    headers:
-      Host: hh3md.6zkk.2p8.hh.hhyf.kdns.fr
-- name: ☁️ Anycast
-  type: vless
-  server: 104.16.174.73
-  port: 8443
-  uuid: c71b3753-a48c-49a6-84e6-7676a57551c1
-  udp: true
-  network: grpc
-  tls: true
-  servername: silent.stepson.ir
-  client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: silent.stepson.ir
-- name: US - zhuhai.uk 02
-  type: vless
-  server: 172.64.34.61
-  port: 443
-  uuid: b961a840-e716-4466-84e3-b701d10adec0
-  udp: true
-  network: ws
-  tls: true
-  servername: image.evan00.dpdns.org
-  client-fingerprint: random
-  ws-opts:
-    path: /proxyip=ProxyIP.US.cmliussss.net
-    headers:
-      Host: image.evan00.dpdns.org
-- name: 🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL]
-  type: vless
-  server: 92.243.74.4
-  port: 8443
-  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
-  udp: true
-  network: ws
-  tls: true
-  servername: vp29.cc.cd
-  client-fingerprint: chrome
-  ws-opts:
-    path: /
-    headers:
-      Host: vp29.cc.cd
-- name: 🇵🇱 Poland, Warsaw | [BL]
-  type: trojan
-  server: 81.255.155.10
-  port: 443
-  password: humanity
-  udp: true
-  sni: www.creationlong.org
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.creationlong.org
-- name: 🌐 Anycast-IP | 🇨🇦 🇫🇮 | [*CIDR]
-  type: trojan
-  server: 45.67.215.9
-  port: 443
-  password: '521314'
-  udp: true
-  sni: tjplay.lxdxo.kdns.fr
-  network: ws
-  ws-opts:
-    path: /Telegram+@WangCai2
-    headers: {}
-- name: hysteria2-24391
-  type: hysteria2
-  server: 62.210.124.146
-  port: 22000
-  password: dongtaiwang.com
-  udp: true
-  sni: www.microsoft.com
-  skip-cert-verify: true
-- name: 🇳🇱 The Netherlands | 🌐 [SNI-RU] yandex.ru
-  type: vless
-  server: 92.119.164.57
-  port: 443
-  uuid: 60f9bb33-6c48-41f3-8d0d-420f83bc3261
-  udp: true
-  tls: true
-  servername: yandex.ru
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: ThlIJki5wLsF5x9BYDt9RSDmwFPhwIhCoZpEqHk5fTA
-    short-id: ba4f72709ab151b6
-  flow: xtls-rprx-vision
-- name: HK   HYSTERIA2-TCP-NTLS  130.49.161.70
-  type: hysteria2
-  server: 130.49.161.70
-  port: 443
-  password: p7Q76LzlnS4hIzr1W3staBOnUe_WwSkR
-  udp: true
-  sni: hy2.aspidnet.xyz
-- name: end-gfw.com22@kr64
-  type: vless
-  server: 52.78.226.72
-  port: 8686
-  uuid: 1a17b19d-4896-4531-af79-6e91d8ef8228
-  udp: true
-  tls: true
-  servername: www.apple.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: A3NXnUIT-W0m1Y_leRnv5so2IeCvk9FCFgL31PulfTw
-    short-id: 628b3c90c98ead4f
-- name: By EbraSha 🥷
-  type: vless
-  server: 151.101.3.19
-  port: 80
-  uuid: 0b516cf6-cd76-470c-954d-9374d734f445
-  udp: true
-  network: ws
-  ws-opts:
-    path: /site
-    headers:
-      Host: yalandonya.global.ssl.fastly.net
-- name: 🏁RELAY-147.78.140.68-0871
-  type: vmess
-  server: 147.78.140.68
-  port: 443
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  alterId: 0
-  cipher: auto
-  udp: true
-  network: ws
-  tls: true
-  ws-opts:
-    path: /meroiy.icu/linkvws
-    headers:
-      Host: 6ba6-sound-6ba6.siliy37818.workers.dev
-- name: By EbraSha 🕹️
-  type: vmess
-  server: 141.193.213.173
-  port: 2086
-  uuid: 7f1744fb-e014-43e9-ab39-1dca96f5e604
-  alterId: 0
-  cipher: auto
-  udp: true
-  network: ws
-  ws-opts:
-    path: /4397hy/843uhbp
-    headers:
-      Host: er250901.bptimecsgo.xyz
-- name: By EbraSha ⛓️
-  type: trojan
-  server: 172.67.68.87
-  port: 2053
-  password: ZJU29smXwp
-  udp: true
-  sni: Web2.teama.tk
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: k.teama.tk
-- name: By EbraSha 🌀
+  sni: deciding-rattler.rooster465.autos
+- name: shadowsocks-125093
   type: ss
-  server: 45.40.154.16
+  server: 102.129.229.85
+  port: 31700
+  cipher: chacha20-ietf-poly1305
+  password: d7zh2lMrXNH5+8+8pKzlxiCU9NN022ih+uAyxj5d4qo=
+  udp: true
+- name: By EbraSha 🚀-3
+  type: vless
+  server: 99.83.138.213
   port: 443
-  cipher: none
-  password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-  udp: true
-- name: 🇬🇧 @anonymouskeys
-  type: vless
-  server: 91.193.59.61
-  port: 8443
-  uuid: 663cf772-829c-4bc6-893d-b7d021d42f5b
+  uuid: 7d3b945d-0f23-4719-9fae-50033251e2fd
   udp: true
   network: ws
   tls: true
-  servername: vp8.cc.cd
-  client-fingerprint: chrome
+  servername: 9pgcn69xy7i539t1wtli.khodavakili.buzz
   ws-opts:
-    path: /
-    headers: {}
-- name: 🇺🇸US_1617|12.3MB/s|V006-260618
-  type: vless
-  server: 91.193.59.70
-  port: 443
-  uuid: 68eee13f-1a7a-4761-b71e-83b997eeccf9
-  udp: true
-  network: ws
-  tls: true
-  servername: hh3md.6zkk.2p8.hh.hhyf.kdns.fr
-  client-fingerprint: chrome
-  ws-opts:
-    path: /?Telegram🇨🇳 @WangCai2
+    path: /kos_madar_publisher
     headers:
-      Host: hh3md.6zkk.2p8.hh.hhyf.kdns.fr
-- name: ☁️ Anycast-2
-  type: vless
-  server: 172.67.147.94
-  port: 8443
-  uuid: 2e1eb27b-9b56-40e9-a2f8-b959bc71736e
-  udp: true
-  network: ws
-  tls: true
-  servername: ad-005.vector9nmb3.info
-  client-fingerprint: chrome
-  ws-opts:
-    path: /
-    headers: {}
-- name: 🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL]-2
-  type: vless
-  server: 91.193.59.90
-  port: 2096
-  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
-  udp: true
-  network: ws
-  tls: true
-  servername: vp22.cc.cd
-  client-fingerprint: chrome
-  ws-opts:
-    path: /
-    headers:
-      Host: vp22.cc.cd
-- name: 🌐 Anycast-IP | 🇨🇦 🇱🇹 | [BL]
-  type: vless
-  server: 162.159.39.6
-  port: 2083
-  uuid: fb978279-0a28-4045-8258-e9ab97deaf2b
-  udp: true
-  network: ws
-  tls: true
-  servername: 3da0360c.myblog-2hd.pages.dev
-  client-fingerprint: chrome
-  ws-opts:
-    path: /
-    headers:
-      Host: 3da0360c.myblog-2hd.pages.dev
-- name: 🇩🇪 Germany [*CIDR]
-  type: vless
-  server: 31.12.75.21
-  port: 2087
-  uuid: 9d6104a5-fc6d-4fe6-95b7-80d8f699e09d
-  udp: true
-  network: xhttp
-  tls: true
-  servername: ch-de.sdcards.ir
-  client-fingerprint: firefox
-- name: hysteria2-145042
-  type: hysteria2
-  server: 5.255.102.165
-  port: 443
-  password: LzMWgm6LaNWCm11bFTbynDPq2TqQj03t
-  udp: true
-  sni: www.microsoft.com
-  skip-cert-verify: true
-- name: 🇧🇬 Bulgaria | [SNI-RU] web.max.ru
-  type: vless
-  server: 93.152.205.216
-  port: 444
-  uuid: 0b9bcbc1-b289-4a64-86fa-a5b731b65384
-  udp: true
-  network: grpc
-  tls: true
-  servername: web.max.ru
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: X-YL5VNtlMNIaBrwaHt3hJCeF_gMT9gPRDDlK1Qg7Tc
-    short-id: 8321461729abcdef
-  grpc-opts:
-    grpc-service-name: web.max.ru
-- name: By EbraSha ⛓️-2
-  type: vless
-  server: 172.67.132.41
-  port: 2083
-  uuid: 0e989a0e-264b-4bbb-baa4-31603314531f
-  udp: true
-  network: ws
-  tls: true
-  servername: nl48.vlessx.us
-  client-fingerprint: randomized
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: nl48.vlessx.us
-- name: 🏁RELAY-172.67.131.108-0978
-  type: vmess
-  server: 172.67.131.108
-  port: 443
-  uuid: 1052f24e-7b09-45eb-b0c5-d858eb124192
-  alterId: 0
-  cipher: auto
-  udp: true
-  network: ws
-  tls: true
-  ws-opts:
-    path: /linkws
-    headers:
-      Host: glweidf.cfd
-- name: By EbraSha 🛰️
-  type: vmess
-  server: 151.101.2.133
-  port: 80
-  uuid: a888b89a-08ac-40e6-8ad7-cfce9569f967
-  alterId: 0
-  cipher: auto
-  udp: true
-  network: ws
-  ws-opts:
-    path: /racevpn
-    headers:
-      Host: gerMAnyISvP.iR
-- name: By EbraSha 🧠
+      Host: dl.khodavakili.buzz
+- name: By EbraSha 🧊
   type: trojan
-  server: 104.21.15.33
-  port: 8443
-  password: 2YDH6ktJOt
+  server: 184.95.40.67
+  port: 443
+  password: DdshthlezG
   udp: true
-  sni: support.sabapardaziran.ir
+  sni: us1.wxgqlfx.vip
+- name: 🏁RELAY-104.21.0.0-0764
+  type: vmess
+  server: 104.21.0.0
+  port: 80
+  uuid: 0730d4e1-3c84-4e06-8b2c-22ab4f591ff6
+  alterId: 0
+  cipher: auto
+  udp: true
   network: ws
   ws-opts:
-    path: /@M3HDIO1
+    path: /0730d4e1-3c84-4e06-8b2c-22ab4f591ff6-vm?ed=2048
     headers:
-      Host: support.sabapardaziran.ir
-- name: ☁ @anonymouskeys-2
-  type: vless
-  server: 141.101.113.83
-  port: 443
-  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
+      Host: sims-museum-mental-listening.trycloudflare.com
+- name: By EbraSha 📀
+  type: vmess
+  server: 172.67.217.144
+  port: 80
+  uuid: 85674552-ce41-44d9-bb2a-50f76450b3d8
+  alterId: 0
+  cipher: auto
   udp: true
   network: ws
-  tls: true
-  servername: vp29.cc.cd
-  client-fingerprint: chrome
   ws-opts:
     path: /
-    headers: {}
-- name: 🇩🇪DE_112|1.0MB/s|V004-260618
-  type: vless
-  server: 169.40.32.189
-  port: 1718
-  uuid: b964acfe-b476-4261-9a4c-e16a31427055
+    headers:
+      Host: lv1.xv2ray.net
+- name: By EbraSha 🛡️
+  type: ss
+  server: 172.67.198.153
+  port: 443
+  cipher: aes-128-gcm
+  password: a-wym4ovY4Yw
   udp: true
-  network: xhttp
+- name: t.me/soheylFarzane 🕊️ irancell
+  type: vmess
+  server: 45.85.119.124
+  port: 8443
+  uuid: 92e61a37-53de-49b7-ade3-a7aaf275bb58
+  alterId: 0
+  cipher: auto
+  udp: true
+  network: ws
   tls: true
-  servername: play.google.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: 0OGl7mPsI0BKACHx9zbBV37UnaOPQrBOyjGddDR77Ck
-    short-id: ac047211730a98
-- name: ☁️ Anycast-3
+  servername: free.soheylv2ray.site
+  ws-opts:
+    path: /nginx5511/
+    headers:
+      Host: free.soheylv2ray.site
+- name: ☁️ Anycast
   type: vless
   server: 104.16.174.169
   port: 8443
@@ -434,153 +659,63 @@ proxies:
   client-fingerprint: chrome
   grpc-opts:
     grpc-service-name: silent.stepson.ir
-- name: 🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL]-3
-  type: vless
-  server: 188.164.248.199
+- name: HK   HYSTERIA2-TCP-NTLS  130.49.161.70
+  type: hysteria2
+  server: 130.49.161.70
   port: 443
-  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
+  password: p7Q76LzlnS4hIzr1W3staBOnUe_WwSkR
+  udp: true
+  sni: hy2.aspidnet.xyz
+- name: By EbraSha ✨-3
+  type: vless
+  server: 166.117.184.30
+  port: 443
+  uuid: 69b9d375-c6c1-64f9-c4a9-f409c8586e5b
   udp: true
   network: ws
   tls: true
-  servername: vp40.cc.cd
-  client-fingerprint: chrome
+  servername: 5fcf0b95.mfree.ccwu.cc
   ws-opts:
-    path: /
+    path: /socks5=4b2c7676:6f0f4cbba5bb@38.111.30.111:26433
     headers:
-      Host: vp40.cc.cd
-- name: 🌐 Anycast-IP | 🇨🇦 🇫🇮 🇸🇪 | [BL]
-  type: vless
-  server: 91.193.59.191
+      Host: 5fcf0b95.mfree.ccwu.cc
+- name: By EbraSha 🧬
+  type: trojan
+  server: 18.238.109.37
   port: 443
-  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
+  password: '0000000'
   udp: true
-  network: ws
-  tls: true
-  servername: vp15.cc.cd
-  client-fingerprint: chrome
-  ws-opts:
-    path: /
-    headers:
-      Host: vp15.cc.cd
-- name: 🇱🇹 Lithuania [*CIDR]
-  type: vless
-  server: 185.221.199.129
-  port: 8443
-  uuid: ba0f90b6-3c3c-4701-b2b6-afe57da05527
-  udp: true
-  network: grpc
-  tls: true
-  servername: 5post-gate.x5.ru
-  client-fingerprint: edge
-  reality-opts:
-    public-key: WF3RXrggPm9ILy5KS7-N9rfBi7d1rgZAkK4X2Owstlk
-    short-id: ''
-  grpc-opts:
-    grpc-service-name: grpc
-- name: 🇩🇪 Germany | [SNI-RU] api-maps.yandex.ru
-  type: vless
-  server: 89.222.123.211
-  port: 16923
-  uuid: 69991c78-0cc6-46e7-a5bc-f37b90d8273c
-  udp: true
-  network: grpc
-  tls: true
-  servername: api-maps.yandex.ru
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: _QeslG3rHGM7DoM99pYC8-jpc16pM2MbNZ6NRMoxmHA
-    short-id: 10ffb85da1c2d986
-  grpc-opts:
-    grpc-service-name: neurex
-- name: By EbraSha 🚬
-  type: vless
-  server: 172.64.147.137
-  port: 443
-  uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-  udp: true
-  network: ws
-  tls: true
-  servername: tianshu13.pages.dev
-  client-fingerprint: chrome
-  ws-opts:
-    path: /pyip=proxyip.sg.cmliussss.net
-    headers:
-      Host: tianshu13.pages.dev
-- name: 🏁RELAY-172.67.161.77-1985
+  sni: www.lovelive-anime.jp
+- name: 🏁RELAY-188.114.96.2-0868
   type: vmess
-  server: 172.67.161.77
-  port: 443
-  uuid: edbb1059-1633-4271-b66e-ed4fba47a1bf
+  server: 188.114.96.2
+  port: 2087
+  uuid: 8c65cbad-923d-4f73-c653-83c75ca4e1aa
   alterId: 0
   cipher: auto
   udp: true
-  network: ws
+  network: grpc
   tls: true
-  ws-opts:
-    path: /linkws
-    headers:
-      Host: linde06.indiavideo.sbs
-- name: By EbraSha 📶
-  type: vmess
-  server: 172.67.130.66
-  port: 80
-  uuid: 58fe1542-5290-40ad-815a-77707a81afe5
-  alterId: 0
-  cipher: chacha20-poly1305
-  udp: true
-  network: ws
-  ws-opts:
-    path: /IOebhLMhl1CTbFHbL95myfRX2
-    headers:
-      Host: de2.ping-game.ir
-- name: By EbraSha ⚔️
-  type: trojan
-  server: 103.160.204.253
-  port: 443
-  password: 8r%3C%5B9%27l6hAO%238ZQi
-  udp: true
-  sni: Koma-YT.PAGeS.Dev
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: '/tr | 免费机场TG@proxyshareCN | '
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-- name: By EbraSha 🦈
+  grpc-opts:
+    grpc-service-name: /
+- name: By EbraSha 🪬
   type: ss
-  server: 50.62.88.16
+  server: 172.67.132.246
   port: 443
-  cipher: none
-  password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  cipher: chacha20-ietf-poly1305
+  password: www.v2nodes.com
   udp: true
-- name: 🇬🇧 @anonymouskeys-2
+- name: '@Alirewa-311'
   type: vless
-  server: 46.33.10.58
-  port: 443
-  uuid: d407defe-cd4f-4d32-a3b1-47c2c813c50d
+  server: 108.162.194.165
+  port: 2053
+  uuid: 06081ec9-2f11-4839-bb5b-04764ea922e7
   udp: true
+  network: xhttp
   tls: true
-  servername: ai.try-me.store
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: sBSNX3DhJSWOkqTmRHisayVLisCBQLb4JcpKzwCrvC0
-    short-id: ''
-  flow: xtls-rprx-vision
-- name: 🇭🇰HK_121|2.0MB/s|V003-260618
-  type: vless
-  server: 91.110.209.68
-  port: 443
-  uuid: 68eee13f-1a7a-4761-b71e-83b997eeccf9
-  udp: true
-  network: ws
-  tls: true
-  servername: hh3md.6zkk.2p8.hh.hhyf.kdns.fr
-  client-fingerprint: chrome
-  ws-opts:
-    path: /?Telegram🇨🇳 @WangCai2
-    headers:
-      Host: hh3md.6zkk.2p8.hh.hhyf.kdns.fr
-- name: ☁️ Anycast-4
+  servername: in.zarzirzor.ir
+  client-fingerprint: random
+- name: ☁️ Anycast-2
   type: vless
   server: 104.16.174.27
   port: 8443
@@ -592,832 +727,308 @@ proxies:
   client-fingerprint: chrome
   grpc-opts:
     grpc-service-name: silent.stepson.ir
-- name: 🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL]-4
+- name: By EbraSha 📀-2
   type: vless
-  server: 91.193.58.223
+  server: 212.18.104.39
   port: 443
-  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
+  uuid: cde6db10-61db-418f-9ea1-52f7c13404a9
   udp: true
-  network: ws
-  tls: true
-  servername: vp18.cc.cd
-  client-fingerprint: chrome
-  ws-opts:
-    path: /
-    headers:
-      Host: vp18.cc.cd
-- name: 🌐 Anycast-IP | 🇨🇦 🇫🇮 🇸🇪 | [BL]-2
-  type: vless
-  server: 188.164.248.168
-  port: 2083
-  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
-  udp: true
-  network: ws
-  tls: true
-  servername: vp43.cc.cd
-  client-fingerprint: chrome
-  ws-opts:
-    path: /
-    headers:
-      Host: vp43.cc.cd
-- name: 🇵🇱 Poland | [*CIDR]
-  type: vless
-  server: 164.138.100.201
-  port: 443
-  uuid: 69991c78-0cc6-46e7-a5bc-f37b90d8273c
-  udp: true
-  network: grpc
-  tls: true
-  servername: api-maps.yandex.ru
-  client-fingerprint: android
-  reality-opts:
-    public-key: _QeslG3rHGM7DoM99pYC8-jpc16pM2MbNZ6NRMoxmHA
-    short-id: 10ffb85da1c2d986
-  grpc-opts:
-    grpc-service-name: pl-br-yandex
-- name: 🇧🇬 Bulgaria | [SNI-RU] web.max.ru-2
-  type: vless
-  server: nl2.vrsvpn.com
-  port: 444
-  uuid: 0b9bcbc1-b289-4a64-86fa-a5b731b65384
-  udp: true
-  network: grpc
-  tls: true
-  servername: web.max.ru
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: X-YL5VNtlMNIaBrwaHt3hJCeF_gMT9gPRDDlK1Qg7Tc
-    short-id: 8321461729abcdef
-  grpc-opts:
-    grpc-service-name: web.max.ru
-- name: By EbraSha 🔥
-  type: vless
-  server: 104.16.0.0
-  port: 2087
-  uuid: 52bdbe76-14f9-4915-9e96-657cd62f95d2
-  udp: true
-  network: ws
-  tls: true
-  servername: wduhu13huwh.rainzone.ir
-  client-fingerprint: chrome
-  ws-opts:
-    path: /?TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=2560
-    headers:
-      Host: wduhu13huwh.rainzone.ir
-- name: 🏁RELAY-172.67.143.129-9324
-  type: vmess
-  server: 172.67.143.129
-  port: 80
-  uuid: 4a47e680-d860-4e63-9fa6-813857fb0f42
-  alterId: 0
-  cipher: auto
-  udp: true
-  network: ws
-  ws-opts:
-    path: 4a47e680
-    headers: {}
-- name: By EbraSha 🧩
-  type: vmess
-  server: 172.67.176.245
-  port: 443
-  uuid: 0632bfa9-b15c-4257-8c75-32f7c0c53b27
-  alterId: 0
-  cipher: auto
-  udp: true
-  network: ws
-  tls: true
-  servername: cg1c12.waimaojd.com
-  ws-opts:
-    path: /api/v1/graphql
-    headers:
-      Host: cg1c12.waimaojd.com
-- name: By EbraSha 🛜-2
-  type: trojan
-  server: 104.16.89.120
-  port: 2096
-  password: 8r%3C%5B9%27l6hAO%238ZQi
-  udp: true
-  sni: Koma-YT.PAGeS.Dev
-  network: ws
-  ws-opts:
-    path: /tr
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-- name: By EbraSha 🎯
-  type: ss
-  server: 198.12.144.38
-  port: 443
-  cipher: none
-  password: 3e96ef7d-8637-42c2-ac73-75182196e755
-  udp: true
-- name: 🇬🇧 @anonymouskeys-3
-  type: vless
-  server: 164.37.105.34
-  port: 443
-  uuid: d407defe-cd4f-4d32-a3b1-47c2c813c50d
-  udp: true
-  tls: true
-  servername: ai.try-me.store
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: sBSNX3DhJSWOkqTmRHisayVLisCBQLb4JcpKzwCrvC0
-    short-id: ''
-  flow: xtls-rprx-vision
-- name: 🇭🇰HK_119|1.8MB/s|V002-260618
-  type: vless
-  server: 91.110.209.119
-  port: 443
-  uuid: 68eee13f-1a7a-4761-b71e-83b997eeccf9
-  udp: true
-  network: ws
-  tls: true
-  servername: hh3md.6zkk.2p8.hh.hhyf.kdns.fr
-  client-fingerprint: chrome
-  ws-opts:
-    path: /?Telegram🇨🇳 @WangCai2
-    headers:
-      Host: hh3md.6zkk.2p8.hh.hhyf.kdns.fr
-- name: ☁️ Anycast-5
-  type: vless
-  server: 172.67.135.252
-  port: 443
-  uuid: 864da993-bccc-45a7-8271-2e5c5d6c3300
-  udp: true
-  network: ws
-  tls: true
-  servername: vnp.noaguo.xyz
-  client-fingerprint: chrome
-  ws-opts:
-    path: /vlws
-    headers: {}
-- name: 🇳🇱 The Netherlands, Amsterdam | [BL]
-  type: vless
-  server: 91.193.58.201
-  port: 443
-  uuid: c578ddf7-ae2b-4a6f-b7f7-a2e8bb82e2bc
-  udp: true
-  network: ws
-  tls: true
-  servername: site.iotdev4.workers.dev
-  ws-opts:
-    path: /
-    headers:
-      Host: site.iotdev4.workers.dev
-- name: 🌐 Anycast-IP | 🇨🇦 🇫🇮 🇸🇪 | [BL]-3
-  type: vless
-  server: 188.164.248.16
-  port: 2083
-  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
-  udp: true
-  network: ws
-  tls: true
-  servername: vp13.cc.cd
-  client-fingerprint: chrome
-  ws-opts:
-    path: /
-    headers:
-      Host: vp13.cc.cd
-- name: 🇩🇪 Germany | [*CIDR]
-  type: vless
-  server: 164.138.100.196
-  port: 443
-  uuid: 69991c78-0cc6-46e7-a5bc-f37b90d8273c
-  udp: true
-  network: grpc
-  tls: true
-  servername: api-maps.yandex.ru
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: _QeslG3rHGM7DoM99pYC8-jpc16pM2MbNZ6NRMoxmHA
-    short-id: 10ffb85da1c2d986
-  grpc-opts:
-    grpc-service-name: de-br-yandex
-- name: 🇱🇹 Lithuania | [SNI-RU] api-maps.yandex.ru
-  type: vless
-  server: red-fhmq5ehr3ievlnabv8l2.concept7.ru
-  port: 443
-  uuid: 15e0833c-08ad-47f3-bf80-60c2a47a6774
-  udp: true
-  tls: true
-  servername: api-maps.yandex.ru
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: KEZ93Y9VgoirI18wIpcfS3z8I9GiaiFe-GKqGdEPMmg
-    short-id: 4e07408562be
-  flow: xtls-rprx-vision
-- name: By EbraSha 🧠-2
-  type: vless
-  server: 172.67.67.123
-  port: 2096
-  uuid: 663cf772-829c-4bc6-893d-b7d021d42f5b
-  udp: true
-  network: ws
-  tls: true
-  servername: vp2.cc.cd
-  client-fingerprint: firefox
-  ws-opts:
-    path: /
-    headers: {}
-- name: 🏁RELAY-154.92.9.83-9431
-  type: vmess
-  server: 154.92.9.83
-  port: 80
-  uuid: dd41b5cb-b72e-4a8c-c75a-3ecc928d6eb3
-  alterId: 0
-  cipher: auto
-  udp: true
-  network: ws
-  ws-opts:
-    path: /blue
-    headers: {}
-- name: By EbraSha 🛡️
-  type: vmess
-  server: 172.67.229.13
-  port: 2086
-  uuid: 58fe1542-5290-40ad-815a-77707a81afe5
-  alterId: 0
-  cipher: auto
-  udp: true
-  network: ws
-  ws-opts:
-    path: /IOebhLMhl1CTbFHbL95myfRX2
-    headers:
-      Host: ca6.tehme100.fun
-- name: By EbraSha 📶-2
-  type: trojan
-  server: 108.162.192.253
-  port: 443
-  password: 8r%3C%5B9%27l6hAO%238ZQi
-  udp: true
-  sni: Koma-YT.PAGeS.Dev
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trTelegram
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-- name: By EbraSha 🚧
-  type: ss
-  server: 50.62.195.16
-  port: 443
-  cipher: none
-  password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-  udp: true
-- name: 🇳🇱 @anonymouskeys
-  type: vless
-  server: 117.55.202.41
-  port: 443
-  uuid: d407defe-cd4f-4d32-a3b1-47c2c813c50d
-  udp: true
-  tls: true
-  servername: ssl.cougarboardsstore.store
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: devrVTMUN9yT0i5X3YE6rnV2GHlbO7pr0f9wyE6rRXo
-    short-id: ''
-  flow: xtls-rprx-vision
-- name: 🇭🇰HK_116|2.1MB/s|V010-260618
-  type: vless
-  server: 91.110.209.116
-  port: 443
-  uuid: 68eee13f-1a7a-4761-b71e-83b997eeccf9
-  udp: true
-  network: ws
-  tls: true
-  servername: hh3md.6zkk.2p8.hh.hhyf.kdns.fr
-  client-fingerprint: chrome
-  ws-opts:
-    path: /?Telegram🇨🇳 @WangCai2
-    headers:
-      Host: hh3md.6zkk.2p8.hh.hhyf.kdns.fr
-- name: 🇳🇱 The Netherlands, Amsterdam | [BL]-2
-  type: vless
-  server: 103.160.204.239
-  port: 443
-  uuid: c578ddf7-ae2b-4a6f-b7f7-a2e8bb82e2bc
-  udp: true
-  network: ws
-  tls: true
-  servername: site.iotdev3.workers.dev
-  client-fingerprint: chrome
-  ws-opts:
-    path: /
-    headers:
-      Host: site.iotdev3.workers.dev
-- name: 🌐 Anycast-IP | 🇨🇦 🇫🇮 🇳🇱 | [BL]
-  type: vless
-  server: 72.167.242.16
-  port: 2087
-  uuid: 38a43f18-b4d9-443f-9ff1-4cf9de3d666e
-  udp: true
-  network: ws
-  tls: true
-  servername: valid22.validbv9501.ir
-  ws-opts:
-    path: /eyJqdW5rIjoiS0ZJaGhSaG14Z0NMeCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjE0Ni4xMDMuMTE0LjEzNCJdfQ==
-    headers:
-      Host: valid22.validbv9501.ir
-- name: 🇩🇪 Germany | [*CIDR] Beeline
-  type: vless
-  server: 66.90.90.147
-  port: 8443
-  uuid: ecad47b0-249e-0005-adff-e3c8f02b1897
-  udp: true
-  tls: true
-  servername: auto.quattro-tech.ru
-  client-fingerprint: android
-  reality-opts:
-    public-key: 10rVZPoOUP1TlQviIAsQ_jAROX0fRQxH0C92nq_zGQc
-    short-id: 43dcff53849b81e6
-  flow: xtls-rprx-vision
-- name: By EbraSha 🦅
-  type: vless
-  server: 104.25.91.37
-  port: 443
-  uuid: 7884d564-5873-4321-9fad-b5f82236d79e
-  udp: true
-  network: ws
-  tls: true
-  servername: 1.digikala.sbs
-  client-fingerprint: chrome
-  ws-opts:
-    path: /bGkiPnuRLmSRZp3WCDd7QY
-    headers:
-      Host: 1.digikala.sbs
-- name: 🏁RELAY-104.31.16.28-9662
-  type: vmess
-  server: 104.31.16.28
-  port: 80
-  uuid: 58fe1542-5290-40ad-815a-77707a81afe5
-  alterId: 0
-  cipher: auto
-  udp: true
-  network: ws
-  ws-opts:
-    path: /IOebhLMhl1CTbFHbL95myfRX2
-    headers: {}
-- name: By EbraSha ♦️
-  type: vmess
-  server: 172.67.64.120
-  port: 80
-  uuid: d646fd8c-3405-40c4-8df8-fb85d6bf8b24
-  alterId: 0
-  cipher: auto
-  udp: true
-  network: ws
-  ws-opts:
-    path: /V2LINE-TELEGRAM-CHANNEL-VMESS-WS
-    headers:
-      Host: 58892877706648357761980405045364.chrsjfklsdjfkljoierfdjklfjlkefeojsdlkfjeoifjsdlkfjweoifjlsdchrs.cyou
-- name: By EbraSha 🦇
-  type: trojan
-  server: 206.238.236.216
-  port: 2083
-  password: Aimer
-  udp: true
-- name: By EbraSha 🖥️
-  type: ss
-  server: 212.183.88.38
-  port: 443
-  cipher: none
-  password: 3e96ef7d-8637-42c2-ac73-75182196e755
-  udp: true
-- name: 🇬🇧 @anonymouskeys-4
-  type: vless
-  server: 144.31.213.150
-  port: 443
-  uuid: b052df40-d51c-456c-9bd6-57af01a87e4e
-  udp: true
-  tls: true
-  servername: cdn.pinecloud.net
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: vWSgdMDirb9aDZLWijSXXXl-NCTrtBgEe9MQqcgV6h8
-    short-id: 6a2e3af684799b19
-  flow: xtls-rprx-vision
-- name: 🇭🇰HK_125|1.3MB/s|V008-260618
-  type: vless
-  server: 91.110.209.82
-  port: 443
-  uuid: 68eee13f-1a7a-4761-b71e-83b997eeccf9
-  udp: true
-  network: ws
-  tls: true
-  servername: hh3md.6zkk.2p8.hh.hhyf.kdns.fr
-  client-fingerprint: chrome
-  ws-opts:
-    path: /?Telegram🇨🇳 @WangCai2
-    headers:
-      Host: hh3md.6zkk.2p8.hh.hhyf.kdns.fr
-- name: 🇸🇬 Singapore, Singapore (Pioneer) | [BL]
-  type: vless
-  server: 91.193.58.58
-  port: 80
-  uuid: e7b178da-65e8-45ad-8550-de40eb0a7835
-  udp: true
-  network: ws
-  ws-opts:
-    path: /?Telegram-WangCai2🇨🇳
-    headers:
-      Host: sahanwickramasinghevip.shop
-- name: 🌐 Anycast-IP | 🇨🇦 🇫🇮 🇸🇪 | [BL]-4
-  type: vless
-  server: 188.164.248.159
-  port: 2083
-  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
-  udp: true
-  network: ws
-  tls: true
-  servername: vp39.cc.cd
-  client-fingerprint: chrome
-  ws-opts:
-    path: /
-    headers:
-      Host: vp39.cc.cd
-- name: 🇱🇻 Latvia [*CIDR]
-  type: vless
-  server: 84.38.187.169
-  port: 443
-  uuid: 39b25b94-3b44-0037-94bf-98456f1b38a3
-  udp: true
-  network: xhttp
-  tls: true
-  servername: mc.yandex.tr
-  client-fingerprint: qq
-  reality-opts:
-    public-key: rJMYW6mHgjs61mHxfm8Gmm_Re23sV_xe5b0IrTpLsiQ
-    short-id: 94c9dbbf07366d96
 - name: By EbraSha 👾
-  type: vless
-  server: 104.17.99.87
-  port: 2083
-  uuid: 869f451d-9b7c-4dfd-80d7-4a13d0b77583
-  udp: true
-  network: ws
-  tls: true
-  servername: nova-falcon-stack-93d6.nova-6624c8.workers.dev
-  client-fingerprint: chrome
-  ws-opts:
-    path: /
-    headers:
-      Host: nova-falcon-stack-93d6.nova-6624c8.workers.dev
-- name: 🏁RELAY-104.18.28.109-9749
-  type: vmess
-  server: 104.18.28.109
-  port: 443
-  uuid: be74ca03-6a7c-4c88-edc2-c6434ead0cfa
-  alterId: 0
-  cipher: auto
-  udp: true
-  network: ws
-  tls: true
-  ws-opts:
-    path: /16575
-    headers: {}
-- name: By EbraSha 🌑
-  type: vmess
-  server: 172.67.199.232
-  port: 8080
-  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
-  alterId: 0
-  cipher: auto
-  udp: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: oiictw.yydsii.com
-- name: By EbraSha 🦈-2
   type: trojan
-  server: 216.198.53.212
-  port: 8443
-  password: Aimer
-  udp: true
-  sni: epcct.ambercc.filegear-sg.me
-- name: 🇫🇮 @anonymouskeys
-  type: vless
-  server: 85.192.48.118
+  server: 18.238.109.41
   port: 443
-  uuid: 2c5268a3-4d6b-43ec-8930-a5de3d3cbbb7
+  password: '0000000'
   udp: true
-  tls: true
-  servername: google.com
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: Wfr0DPknlkQgosbK5bN0bLR2BCREOEpQYvo9S90XfAc
-    short-id: ''
-  flow: xtls-rprx-vision
-- name: 🇭🇰HK_128|1.2MB/s|V009-260618
-  type: vless
-  server: 91.110.209.48
+  sni: www.lovelive-anime.jp
+- name: 🏁RELAY-173.245.58.5-0962
+  type: vmess
+  server: 173.245.58.5
   port: 443
-  uuid: 68eee13f-1a7a-4761-b71e-83b997eeccf9
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  alterId: 0
+  cipher: auto
   udp: true
   network: ws
   tls: true
-  servername: hh3md.6zkk.2p8.hh.hhyf.kdns.fr
-  client-fingerprint: chrome
   ws-opts:
-    path: /?Telegram🇨🇳 @WangCai2
+    path: /kellie.makeup/linkvws
     headers:
-      Host: hh3md.6zkk.2p8.hh.hhyf.kdns.fr
-- name: 🇸🇬 Singapore, Singapore (Pioneer) | [BL]-2
-  type: vless
-  server: 91.193.58.204
+      Host: cy-dew-1c7uwh.cojatoc291.workers.dev
+- name: By EbraSha 🌐
+  type: vmess
+  server: 185.146.173.59
   port: 80
-  uuid: e7b178da-65e8-45ad-8550-de40eb0a7835
+  uuid: 1052f24e-7b09-45eb-b0c5-d858eb124192
+  alterId: 0
+  cipher: auto
   udp: true
   network: ws
   ws-opts:
-    path: /?Telegram-WangCai2🇨🇳
+    path: /glweidf.cfd/linkws
     headers:
-      Host: sahanwickramasinghevip.shop
-- name: 🌐 Anycast-IP | 🇨🇦 🇫🇮 🇳🇱 | [BL]-2
+      Host: freevpn878.hamidimorteza680.workers.dev
+- name: By EbraSha 🌪️
+  type: ss
+  server: 88.210.36.107
+  port: 2377
+  cipher: chacha20-ietf-poly1305
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  udp: true
+- name: '@Alirewa-305'
   type: vless
-  server: 160.153.168.16
-  port: 2087
-  uuid: 38a43f18-b4d9-443f-9ff1-4cf9de3d666e
+  server: 165.215.250.129
+  port: 443
+  uuid: 0f1b6d8d-3f8c-4713-b32d-c94947083485
   udp: true
   network: ws
   tls: true
-  servername: valid22.validbv9501.ir
+  servername: apexbhao1.qzz.io
   ws-opts:
-    path: /eyJqdW5rIjoiS0ZJaGhSaG14Z0NMeCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjE0Ni4xMDMuMTE0LjEzNCJdfQ==
+    path: /43.218.77.16
     headers:
-      Host: valid22.validbv9501.ir
-- name: 🇨🇭 Switzerland [*CIDR]
+      Host: apexbhao1.qzz.io
+- name: ☁️ Anycast-3
   type: vless
-  server: 164.138.100.200
-  port: 443
-  uuid: 69991c78-0cc6-46e7-a5bc-f37b90d8273c
+  server: 104.16.174.73
+  port: 8443
+  uuid: c71b3753-a48c-49a6-84e6-7676a57551c1
   udp: true
   network: grpc
   tls: true
-  servername: api-maps.yandex.ru
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: _QeslG3rHGM7DoM99pYC8-jpc16pM2MbNZ6NRMoxmHA
-    short-id: 10ffb85da1c2d986
+  servername: silent.stepson.ir
+  client-fingerprint: chrome
   grpc-opts:
-    grpc-service-name: ch-br-yandex
-- name: By EbraSha 🧩-2
-  type: vless
-  server: 104.18.221.160
-  port: 80
-  uuid: 9a237f52-35f4-411f-a544-f5b574324c6b
-  udp: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: bia-to-channel4.unlimiteddev.shop
-- name: 🏁RELAY-172.67.196.112-0936
-  type: vmess
-  server: 172.67.196.112
-  port: 443
-  uuid: edbb1059-1633-4271-b66e-ed4fba47a1bf
-  alterId: 0
-  cipher: auto
-  udp: true
-  network: ws
-  tls: true
-  ws-opts:
-    path: /linkws
-    headers:
-      Host: linde06.indiavideo.sbs
-- name: By EbraSha ⚡
-  type: vmess
-  server: 151.101.130.219
-  port: 443
-  uuid: a2e207b0-eee0-4e82-9551-eed623e45a4e
-  alterId: 0
-  cipher: auto
-  udp: true
-  network: ws
-  tls: true
-  servername: speedtest.net
-  ws-opts:
-    path: ws/?ed=2048
-    headers:
-      Host: Dbdjhiw72ebsu272hs519j.com
-- name: By EbraSha 🧩-3
-  type: trojan
-  server: 27.50.49.166
-  port: 8443
-  password: Aimer
-  udp: true
-  sni: ngepx.ambercc.filegear-sg.me
-- name: By EbraSha 🪐
+    grpc-service-name: silent.stepson.ir
+- name: shadowsocks-249
   type: ss
-  server: 50.62.90.16
-  port: 443
-  cipher: none
-  password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  server: 27.255.82.134
+  port: 2078
+  cipher: aes-256-cfb
+  password: qwerREWQ@@
   udp: true
+- name: By EbraSha 🦇-2
+  type: vless
+  server: 212.18.104.39
+  port: 8443
+  uuid: cde6db10-61db-418f-9ea1-52f7c13404a9
+  udp: true
+- name: By EbraSha 🐉
+  type: trojan
+  server: 18.238.109.28
+  port: 443
+  password: '0000000'
+  udp: true
+  sni: www.lovelive-anime.jp
 proxy-groups:
 - name: 🚀 节点选择
   type: select
   proxies:
   - ♻️ 自动选择
   - DIRECT
-  - By EbraSha 🤖
-  - 🏁RELAY-188.114.96.2-0874
-  - By EbraSha 🛜
-  - By EbraSha 🔐
-  - ☁ @anonymouskeys
-  - 🇺🇸US_1618|10.8MB/s|V006-260618
-  - ☁️ Anycast
-  - US - zhuhai.uk 02
-  - 🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL]
-  - 🇵🇱 Poland, Warsaw | [BL]
-  - 🌐 Anycast-IP | 🇨🇦 🇫🇮 | [*CIDR]
-  - hysteria2-24391
-  - 🇳🇱 The Netherlands | 🌐 [SNI-RU] yandex.ru
-  - HK   HYSTERIA2-TCP-NTLS  130.49.161.70
-  - end-gfw.com22@kr64
-  - By EbraSha 🥷
-  - 🏁RELAY-147.78.140.68-0871
-  - By EbraSha 🕹️
-  - By EbraSha ⛓️
-  - By EbraSha 🌀
-  - 🇬🇧 @anonymouskeys
-  - 🇺🇸US_1617|12.3MB/s|V006-260618
-  - ☁️ Anycast-2
-  - 🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL]-2
-  - 🌐 Anycast-IP | 🇨🇦 🇱🇹 | [BL]
-  - 🇩🇪 Germany [*CIDR]
-  - hysteria2-145042
-  - 🇧🇬 Bulgaria | [SNI-RU] web.max.ru
-  - By EbraSha ⛓️-2
-  - 🏁RELAY-172.67.131.108-0978
-  - By EbraSha 🛰️
-  - By EbraSha 🧠
-  - ☁ @anonymouskeys-2
-  - 🇩🇪DE_112|1.0MB/s|V004-260618
-  - ☁️ Anycast-3
-  - 🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL]-3
-  - 🌐 Anycast-IP | 🇨🇦 🇫🇮 🇸🇪 | [BL]
-  - 🇱🇹 Lithuania [*CIDR]
-  - 🇩🇪 Germany | [SNI-RU] api-maps.yandex.ru
-  - By EbraSha 🚬
-  - 🏁RELAY-172.67.161.77-1985
-  - By EbraSha 📶
-  - By EbraSha ⚔️
   - By EbraSha 🦈
-  - 🇬🇧 @anonymouskeys-2
-  - 🇭🇰HK_121|2.0MB/s|V003-260618
-  - ☁️ Anycast-4
-  - 🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL]-4
-  - 🌐 Anycast-IP | 🇨🇦 🇫🇮 🇸🇪 | [BL]-2
-  - 🇵🇱 Poland | [*CIDR]
-  - 🇧🇬 Bulgaria | [SNI-RU] web.max.ru-2
-  - By EbraSha 🔥
-  - 🏁RELAY-172.67.143.129-9324
-  - By EbraSha 🧩
-  - By EbraSha 🛜-2
-  - By EbraSha 🎯
-  - 🇬🇧 @anonymouskeys-3
-  - 🇭🇰HK_119|1.8MB/s|V002-260618
-  - ☁️ Anycast-5
-  - 🇳🇱 The Netherlands, Amsterdam | [BL]
-  - 🌐 Anycast-IP | 🇨🇦 🇫🇮 🇸🇪 | [BL]-3
-  - 🇩🇪 Germany | [*CIDR]
-  - 🇱🇹 Lithuania | [SNI-RU] api-maps.yandex.ru
-  - By EbraSha 🧠-2
-  - 🏁RELAY-154.92.9.83-9431
-  - By EbraSha 🛡️
-  - By EbraSha 📶-2
+  - By EbraSha 🎛️
   - By EbraSha 🚧
-  - 🇳🇱 @anonymouskeys
-  - 🇭🇰HK_116|2.1MB/s|V010-260618
-  - 🇳🇱 The Netherlands, Amsterdam | [BL]-2
-  - 🌐 Anycast-IP | 🇨🇦 🇫🇮 🇳🇱 | [BL]
-  - 🇩🇪 Germany | [*CIDR] Beeline
-  - By EbraSha 🦅
-  - 🏁RELAY-104.31.16.28-9662
-  - By EbraSha ♦️
+  - By EbraSha 🚀
+  - shadowsocks-21616316
+  - By EbraSha ✨
+  - By EbraSha 🛜
+  - By EbraSha 🌀
+  - By EbraSha 🚀-2
+  - By EbraSha 🕶️
+  - 🇺🇸US_1037|8.8MB/s
+  - 🇺🇸US_1039|9.0MB/s
+  - By EbraSha 🧠
+  - By EbraSha 🐺
+  - 🇺🇸US_1041|8.7MB/s
+  - By EbraSha 👑
+  - By EbraSha ♠️
+  - By EbraSha ✨-2
+  - By EbraSha ⛓️
+  - By EbraSha 🦾
+  - shadowsocks-165
+  - shadowsocks-59461877
+  - shadowsocks-59461878
+  - 🇬🇧GB_38|2.8MB/s|A001-260618
+  - By EbraSha ⛓️-2
+  - By EbraSha 🛰️
+  - shadowsocks-56203963
+  - 🇩🇪DE_84|3.2MB/s|P002-260618
+  - shadowsocks-51760992
+  - shadowsocks-62231903
+  - 🇯🇵JP_63|3.5MB/s
+  - 🇯🇵JP_50|3.6MB/s
+  - 🇯🇵JP_60|4.9MB/s
+  - 🇯🇵JP_54|3.0MB/s
+  - 🇯🇵JP_51|4.7MB/s
   - By EbraSha 🦇
-  - By EbraSha 🖥️
-  - 🇬🇧 @anonymouskeys-4
-  - 🇭🇰HK_125|1.3MB/s|V008-260618
-  - 🇸🇬 Singapore, Singapore (Pioneer) | [BL]
-  - 🌐 Anycast-IP | 🇨🇦 🇫🇮 🇸🇪 | [BL]-4
-  - 🇱🇻 Latvia [*CIDR]
+  - 🇭🇰HK_111|1.6MB/s|K001-260618
+  - 🇯🇵JP_47|2.8MB/s
+  - shadowsocks-11086
+  - 🇳🇱NL_226|3.1MB/s
+  - end-gfw.com22@kr64
+  - 🇳🇱 The Netherlands
+  - By EbraSha 🕹️
+  - FR - zhuhai.uk
+  - hysteria2-24391
+  - 🇰🇷KR_37|3.1MB/s
+  - 🇰🇷KR_50|2.4MB/s
+  - 🇰🇷KR_57|2.0MB/s
+  - 🇰🇷KR_46|2.4MB/s
+  - 🇰🇷KR_51|3.4MB/s
+  - 🇰🇷KR_41|3.1MB/s
+  - 🇩🇪DE_100|2.6MB/s
+  - 🇰🇷KR_59|1.8MB/s
+  - 🇰🇷KR_38|2.6MB/s
+  - 🇰🇷KR_54|3.1MB/s
+  - 🇰🇷KR_63|2.7MB/s
+  - 🇸🇬SG_54|2.6MB/s
+  - 🇸🇬SG_58|2.0MB/s
+  - 🇸🇬SG_59|2.5MB/s
+  - 🇸🇬SG_52|2.4MB/s
+  - 🇸🇬SG_65|861KB/s
+  - 🇸🇬SG_50|2.1MB/s
+  - 🇸🇬SG_60|2.4MB/s
+  - 🇸🇬SG_51|1.5MB/s
+  - 🇸🇬SG_67|2.2MB/s
+  - 🇸🇬SG_56|637KB/s
+  - 🇫🇮FI_2|512KB/s|B007-260618
+  - end-gfw.com12@sg89
+  - FI - zhuhai.uk
+  - hysteria2-145042
+  - 🇨🇭CH_1|516KB/s|B007-260618
+  - 🇦🇱AL_1|566KB/s|A001-260618
+  - 🇧🇬BG_2|776KB/s|B007-260618
+  - By EbraSha 👑-2
+  - 🇯🇵JP_43|3.5MB/s
+  - shadowsocks-125093
+  - By EbraSha 🚀-3
+  - By EbraSha 🧊
+  - 🏁RELAY-104.21.0.0-0764
+  - By EbraSha 📀
+  - By EbraSha 🛡️
+  - t.me/soheylFarzane 🕊️ irancell
+  - ☁️ Anycast
+  - HK   HYSTERIA2-TCP-NTLS  130.49.161.70
+  - By EbraSha ✨-3
+  - By EbraSha 🧬
+  - 🏁RELAY-188.114.96.2-0868
+  - By EbraSha 🪬
+  - '@Alirewa-311'
+  - ☁️ Anycast-2
+  - By EbraSha 📀-2
   - By EbraSha 👾
-  - 🏁RELAY-104.18.28.109-9749
-  - By EbraSha 🌑
-  - By EbraSha 🦈-2
-  - 🇫🇮 @anonymouskeys
-  - 🇭🇰HK_128|1.2MB/s|V009-260618
-  - 🇸🇬 Singapore, Singapore (Pioneer) | [BL]-2
-  - 🌐 Anycast-IP | 🇨🇦 🇫🇮 🇳🇱 | [BL]-2
-  - 🇨🇭 Switzerland [*CIDR]
-  - By EbraSha 🧩-2
-  - 🏁RELAY-172.67.196.112-0936
-  - By EbraSha ⚡
-  - By EbraSha 🧩-3
-  - By EbraSha 🪐
+  - 🏁RELAY-173.245.58.5-0962
+  - By EbraSha 🌐
+  - By EbraSha 🌪️
+  - '@Alirewa-305'
+  - ☁️ Anycast-3
+  - shadowsocks-249
+  - By EbraSha 🦇-2
+  - By EbraSha 🐉
 - name: ♻️ 自动选择
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - By EbraSha 🤖
-  - 🏁RELAY-188.114.96.2-0874
-  - By EbraSha 🛜
-  - By EbraSha 🔐
-  - ☁ @anonymouskeys
-  - 🇺🇸US_1618|10.8MB/s|V006-260618
-  - ☁️ Anycast
-  - US - zhuhai.uk 02
-  - 🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL]
-  - 🇵🇱 Poland, Warsaw | [BL]
-  - 🌐 Anycast-IP | 🇨🇦 🇫🇮 | [*CIDR]
-  - hysteria2-24391
-  - 🇳🇱 The Netherlands | 🌐 [SNI-RU] yandex.ru
-  - HK   HYSTERIA2-TCP-NTLS  130.49.161.70
-  - end-gfw.com22@kr64
-  - By EbraSha 🥷
-  - 🏁RELAY-147.78.140.68-0871
-  - By EbraSha 🕹️
-  - By EbraSha ⛓️
-  - By EbraSha 🌀
-  - 🇬🇧 @anonymouskeys
-  - 🇺🇸US_1617|12.3MB/s|V006-260618
-  - ☁️ Anycast-2
-  - 🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL]-2
-  - 🌐 Anycast-IP | 🇨🇦 🇱🇹 | [BL]
-  - 🇩🇪 Germany [*CIDR]
-  - hysteria2-145042
-  - 🇧🇬 Bulgaria | [SNI-RU] web.max.ru
-  - By EbraSha ⛓️-2
-  - 🏁RELAY-172.67.131.108-0978
-  - By EbraSha 🛰️
-  - By EbraSha 🧠
-  - ☁ @anonymouskeys-2
-  - 🇩🇪DE_112|1.0MB/s|V004-260618
-  - ☁️ Anycast-3
-  - 🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL]-3
-  - 🌐 Anycast-IP | 🇨🇦 🇫🇮 🇸🇪 | [BL]
-  - 🇱🇹 Lithuania [*CIDR]
-  - 🇩🇪 Germany | [SNI-RU] api-maps.yandex.ru
-  - By EbraSha 🚬
-  - 🏁RELAY-172.67.161.77-1985
-  - By EbraSha 📶
-  - By EbraSha ⚔️
   - By EbraSha 🦈
-  - 🇬🇧 @anonymouskeys-2
-  - 🇭🇰HK_121|2.0MB/s|V003-260618
-  - ☁️ Anycast-4
-  - 🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL]-4
-  - 🌐 Anycast-IP | 🇨🇦 🇫🇮 🇸🇪 | [BL]-2
-  - 🇵🇱 Poland | [*CIDR]
-  - 🇧🇬 Bulgaria | [SNI-RU] web.max.ru-2
-  - By EbraSha 🔥
-  - 🏁RELAY-172.67.143.129-9324
-  - By EbraSha 🧩
-  - By EbraSha 🛜-2
-  - By EbraSha 🎯
-  - 🇬🇧 @anonymouskeys-3
-  - 🇭🇰HK_119|1.8MB/s|V002-260618
-  - ☁️ Anycast-5
-  - 🇳🇱 The Netherlands, Amsterdam | [BL]
-  - 🌐 Anycast-IP | 🇨🇦 🇫🇮 🇸🇪 | [BL]-3
-  - 🇩🇪 Germany | [*CIDR]
-  - 🇱🇹 Lithuania | [SNI-RU] api-maps.yandex.ru
-  - By EbraSha 🧠-2
-  - 🏁RELAY-154.92.9.83-9431
-  - By EbraSha 🛡️
-  - By EbraSha 📶-2
+  - By EbraSha 🎛️
   - By EbraSha 🚧
-  - 🇳🇱 @anonymouskeys
-  - 🇭🇰HK_116|2.1MB/s|V010-260618
-  - 🇳🇱 The Netherlands, Amsterdam | [BL]-2
-  - 🌐 Anycast-IP | 🇨🇦 🇫🇮 🇳🇱 | [BL]
-  - 🇩🇪 Germany | [*CIDR] Beeline
-  - By EbraSha 🦅
-  - 🏁RELAY-104.31.16.28-9662
-  - By EbraSha ♦️
+  - By EbraSha 🚀
+  - shadowsocks-21616316
+  - By EbraSha ✨
+  - By EbraSha 🛜
+  - By EbraSha 🌀
+  - By EbraSha 🚀-2
+  - By EbraSha 🕶️
+  - 🇺🇸US_1037|8.8MB/s
+  - 🇺🇸US_1039|9.0MB/s
+  - By EbraSha 🧠
+  - By EbraSha 🐺
+  - 🇺🇸US_1041|8.7MB/s
+  - By EbraSha 👑
+  - By EbraSha ♠️
+  - By EbraSha ✨-2
+  - By EbraSha ⛓️
+  - By EbraSha 🦾
+  - shadowsocks-165
+  - shadowsocks-59461877
+  - shadowsocks-59461878
+  - 🇬🇧GB_38|2.8MB/s|A001-260618
+  - By EbraSha ⛓️-2
+  - By EbraSha 🛰️
+  - shadowsocks-56203963
+  - 🇩🇪DE_84|3.2MB/s|P002-260618
+  - shadowsocks-51760992
+  - shadowsocks-62231903
+  - 🇯🇵JP_63|3.5MB/s
+  - 🇯🇵JP_50|3.6MB/s
+  - 🇯🇵JP_60|4.9MB/s
+  - 🇯🇵JP_54|3.0MB/s
+  - 🇯🇵JP_51|4.7MB/s
   - By EbraSha 🦇
-  - By EbraSha 🖥️
-  - 🇬🇧 @anonymouskeys-4
-  - 🇭🇰HK_125|1.3MB/s|V008-260618
-  - 🇸🇬 Singapore, Singapore (Pioneer) | [BL]
-  - 🌐 Anycast-IP | 🇨🇦 🇫🇮 🇸🇪 | [BL]-4
-  - 🇱🇻 Latvia [*CIDR]
+  - 🇭🇰HK_111|1.6MB/s|K001-260618
+  - 🇯🇵JP_47|2.8MB/s
+  - shadowsocks-11086
+  - 🇳🇱NL_226|3.1MB/s
+  - end-gfw.com22@kr64
+  - 🇳🇱 The Netherlands
+  - By EbraSha 🕹️
+  - FR - zhuhai.uk
+  - hysteria2-24391
+  - 🇰🇷KR_37|3.1MB/s
+  - 🇰🇷KR_50|2.4MB/s
+  - 🇰🇷KR_57|2.0MB/s
+  - 🇰🇷KR_46|2.4MB/s
+  - 🇰🇷KR_51|3.4MB/s
+  - 🇰🇷KR_41|3.1MB/s
+  - 🇩🇪DE_100|2.6MB/s
+  - 🇰🇷KR_59|1.8MB/s
+  - 🇰🇷KR_38|2.6MB/s
+  - 🇰🇷KR_54|3.1MB/s
+  - 🇰🇷KR_63|2.7MB/s
+  - 🇸🇬SG_54|2.6MB/s
+  - 🇸🇬SG_58|2.0MB/s
+  - 🇸🇬SG_59|2.5MB/s
+  - 🇸🇬SG_52|2.4MB/s
+  - 🇸🇬SG_65|861KB/s
+  - 🇸🇬SG_50|2.1MB/s
+  - 🇸🇬SG_60|2.4MB/s
+  - 🇸🇬SG_51|1.5MB/s
+  - 🇸🇬SG_67|2.2MB/s
+  - 🇸🇬SG_56|637KB/s
+  - 🇫🇮FI_2|512KB/s|B007-260618
+  - end-gfw.com12@sg89
+  - FI - zhuhai.uk
+  - hysteria2-145042
+  - 🇨🇭CH_1|516KB/s|B007-260618
+  - 🇦🇱AL_1|566KB/s|A001-260618
+  - 🇧🇬BG_2|776KB/s|B007-260618
+  - By EbraSha 👑-2
+  - 🇯🇵JP_43|3.5MB/s
+  - shadowsocks-125093
+  - By EbraSha 🚀-3
+  - By EbraSha 🧊
+  - 🏁RELAY-104.21.0.0-0764
+  - By EbraSha 📀
+  - By EbraSha 🛡️
+  - t.me/soheylFarzane 🕊️ irancell
+  - ☁️ Anycast
+  - HK   HYSTERIA2-TCP-NTLS  130.49.161.70
+  - By EbraSha ✨-3
+  - By EbraSha 🧬
+  - 🏁RELAY-188.114.96.2-0868
+  - By EbraSha 🪬
+  - '@Alirewa-311'
+  - ☁️ Anycast-2
+  - By EbraSha 📀-2
   - By EbraSha 👾
-  - 🏁RELAY-104.18.28.109-9749
-  - By EbraSha 🌑
-  - By EbraSha 🦈-2
-  - 🇫🇮 @anonymouskeys
-  - 🇭🇰HK_128|1.2MB/s|V009-260618
-  - 🇸🇬 Singapore, Singapore (Pioneer) | [BL]-2
-  - 🌐 Anycast-IP | 🇨🇦 🇫🇮 🇳🇱 | [BL]-2
-  - 🇨🇭 Switzerland [*CIDR]
-  - By EbraSha 🧩-2
-  - 🏁RELAY-172.67.196.112-0936
-  - By EbraSha ⚡
-  - By EbraSha 🧩-3
-  - By EbraSha 🪐
+  - 🏁RELAY-173.245.58.5-0962
+  - By EbraSha 🌐
+  - By EbraSha 🌪️
+  - '@Alirewa-305'
+  - ☁️ Anycast-3
+  - shadowsocks-249
+  - By EbraSha 🦇-2
+  - By EbraSha 🐉
 rules:
 - MATCH,🚀 节点选择
