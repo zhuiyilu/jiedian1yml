@@ -3,22 +3,6 @@ allow-lan: false
 mode: rule
 log-level: info
 proxies:
-- name: vless-1008548968
-  type: vless
-  server: 198.98.48.110
-  port: 18153
-  uuid: 41f4cb15-5a3f-3934-89fe-b4177146adf4
-  udp: true
-  tls: true
-  servername: u643766u07dbb69ds552.gogocs.xyz
-  flow: xtls-rprx-vision
-- name: shadowsocks-468218613
-  type: ss
-  server: 138.197.141.58
-  port: 8080
-  cipher: rc4-md5
-  password: 14fFPrbezE3HDZzsMOr6
-  udp: true
 - name: shadowsocks-696792823
   type: ss
   server: 154.127.56.212
@@ -26,172 +10,190 @@ proxies:
   cipher: aes-256-cfb
   password: 7eadc6dbe2ae
   udp: true
-- name: 🇨🇦CA_23|216KB/s|A004-260618
+- name: shadowsocks-468218514
   type: ss
-  server: 15.156.207.22
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
+  server: 107.151.182.197
+  port: 8080
+  cipher: rc4-md5
+  password: 14fFPrbezE3HDZzsMOr6
   udp: true
-- name: 🇺🇸US_122|190KB/s|A004-260618
-  type: trojan
-  server: 64.94.95.117
-  port: 57142
-  password: kkzh2prsyr2ik47as615
-  udp: true
-  sni: 64.94.95.117
-  skip-cert-verify: true
-- name: shadowsocks-1010926764
-  type: ss
-  server: 129.146.60.204
-  port: 50356
-  cipher: 2022-blake3-chacha20-poly1305
-  password: vHbqRfuElW7yjgJWjFBaGRF3W73U7jIvXX8XdsLth2s=
-  udp: true
-- name: 🇺🇸US_31|193KB/s|A004-260618
-  type: trojan
-  server: 64.74.163.118
-  port: 58536
-  password: lEjtI3pFYfU7O1UYozJcfZV5K6Fwfths
-  udp: true
-  sni: 64.74.163.118
-  skip-cert-verify: true
-- name: shadowsocks-1031091985
-  type: ss
-  server: 129.146.62.211
-  port: 50356
-  cipher: 2022-blake3-chacha20-poly1305
-  password: 3RVXu5xARCPQlD3Fv/cmQt7o/XGqUZLwrTTt0FkA2vo=
-  udp: true
-- name: shadowsocks-1009300993
-  type: ss
-  server: 129.146.60.116
-  port: 50356
-  cipher: 2022-blake3-chacha20-poly1305
-  password: xDEXXhNhDE1+LUHo1bMUnTwFqgPX3i7cpDX+hUx+dRg=
-  udp: true
-- name: 🇺🇸US_62|284KB/s|A004-260618
+- name: shadowsocks-468218487
   type: ss
   server: 138.199.43.159
   port: 8080
   cipher: rc4-md5
   password: 14fFPrbezE3HDZzsMOr6
   udp: true
-- name: 🇮🇪IE_3|182KB/s|A004-260618
+- name: shadowsocks-1033529994
   type: ss
-  server: 54.246.9.69
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
+  server: 129.146.164.106
+  port: 50356
+  cipher: 2022-blake3-chacha20-poly1305
+  password: d3XKEAaP9W+8U99EFr6tECQctjBZ8m76x2hAPwkzpk8=
   udp: true
-- name: 🇮🇪IE_1|370KB/s|R002-260618
-  type: ss
-  server: 54.247.216.201
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
-  udp: true
-- name: 🇬🇧GB_80|428KB/s|A004-260618
-  type: ss
-  server: 18.170.37.90
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
-  udp: true
-- name: 🇬🇧GB_108|149KB/s|R002-260618
-  type: ss
-  server: 18.132.203.206
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
-  udp: true
-- name: 🇬🇧GB_14|261KB/s|B007-260618
-  type: ss
-  server: 149.102.149.207
-  port: 443
-  cipher: aes-256-gcm
-  password: LXchLsIwtCeUAUgu
-  udp: true
-- name: 🇬🇧GB_112|192KB/s|C001-260618
-  type: ss
-  server: 35.176.118.152
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
-  udp: true
-- name: trojan-859600279
+- name: trojan-856210253
   type: trojan
   server: us01.duotg.top
-  port: 59385
+  port: 54657
   password: 02cd3bac-2a78-4dbb-82b9-6b64084ddd8e
   udp: true
   sni: www.microsoft.com
   skip-cert-verify: true
-- name: DE - zhuhai.uk
-  type: ss
-  server: 129.159.10.51
-  port: 59924
-  cipher: 2022-blake3-chacha20-poly1305
-  password: +gebuWwfimHcw5FvH6Sfnw3ppf05PeV2M8QPMsr38oY=
+- name: trojan-855080375
+  type: trojan
+  server: us01.duotg.top
+  port: 38261
+  password: 02cd3bac-2a78-4dbb-82b9-6b64084ddd8e
   udp: true
-- name: shadowsocks-1023619613
-  type: ss
-  server: 130.61.144.2
-  port: 59924
-  cipher: 2022-blake3-chacha20-poly1305
-  password: kmkoVYMV3CiplXx9HrZ9swEnhpwqXMY0rOXC34dEi08=
+  sni: www.microsoft.com
+  skip-cert-verify: true
+- name: hysteria2-163614022
+  type: hysteria2
+  server: 159.223.157.129
+  port: 8443
+  password: suAmQS9LlInNq4Wumh-FUF4GGlpgmG_g
   udp: true
-- name: 🇩🇪 Join+Telegram:@SolVPN 🇩🇪
-  type: ss
-  server: 158.180.59.229
-  port: 59924
-  cipher: 2022-blake3-chacha20-poly1305
-  password: kN17ITmzNrnFpaTp4JSEAy/PV/tKXm+zGT9GaeWm9hU=
-  udp: true
-- name: vless-1015475542
+  sni: www.microsoft.com
+  skip-cert-verify: true
+- name: 🇫🇷FR_611|151KB/s|A004-260618
   type: vless
-  server: 162.159.45.19
-  port: 2095
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  server: 172.64.145.93
+  port: 8880
+  uuid: 00ff7e5f-9b6f-4401-aab9-4d044660411f
   udp: true
   network: ws
   ws-opts:
     path: /
     headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇺🇸US_88|271KB/s|A004-260618
+      Host: summer-bonus-aa63.52-c03.workers.dev
+- name: trojan-1002282332
   type: trojan
-  server: 34.94.125.227
-  port: 443
-  password: M7v%w11Se*
-  udp: true
-  sni: mxlo.wsone.icu
-- name: 🇩🇪DE_60|267KB/s|A004-260618
-  type: vless
-  server: 162.159.38.127
-  port: 8880
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: GB - zhuhai.uk 03
-  type: ss
-  server: 144.24.225.107
-  port: 61312
-  cipher: 2022-blake3-chacha20-poly1305
-  password: p+0DgSpgeRjR9jhXmkVo+saUxIwYMtz2ESbG2+gki9k=
-  udp: true
-- name: trojan-1011377612
-  type: trojan
-  server: 107.150.105.84
+  server: us01.duotg.top
   port: 27732
   password: 02cd3bac-2a78-4dbb-82b9-6b64084ddd8e
   udp: true
-  sni: www.microsoft.com
   skip-cert-verify: true
+- name: 🇫🇷FR_553|176KB/s|B007-260618
+  type: vless
+  server: 172.64.147.236
+  port: 8880
+  uuid: 11046a7c-fa1b-4653-ab87-400feb465540
+  udp: true
+  network: ws
+  ws-opts:
+    path: /pyip=ProxyIP.KR.CMLiussss.net@https://t.me/QiangLieTuiJian
+    headers:
+      Host: nameless-poetry-12fb.8-0a2.workers.dev
+- name: vless-1010794858
+  type: vless
+  server: us3.lunariai.ru
+  port: 443
+  uuid: fda82db3-3c0f-4122-87d9-1ed08059bc92
+  udp: true
+  network: ws
+  ws-opts:
+    path: /
+    headers: {}
+- name: By EbraSha 📱
+  type: vless
+  server: 104.18.1.1
+  port: 80
+  uuid: 56e4896e-90a9-4fe0-8480-90d3d68b9928
+  udp: true
+  network: ws
+  ws-opts:
+    path: /fp=chromefp=chrome
+    headers:
+      Host: go.iranfree.de5.net
+- name: hysteria2-985469467
+  type: hysteria2
+  server: 66.94.121.46
+  port: 443
+  password: gf1:gfhysteria2024
+  udp: true
+  sni: vk.com
+  skip-cert-verify: true
+- name: By EbraSha 🐺
+  type: vless
+  server: 8.35.211.185
+  port: 443
+  uuid: 56e4896e-90a9-4fe0-8480-90d3d68b9928
+  udp: true
+  network: ws
+  tls: true
+  servername: go.iranfree.de5.net
+  client-fingerprint: chrome
+  ws-opts:
+    path: /
+    headers:
+      Host: go.iranfree.de5.net
+- name: 🇫🇷FR_8|132KB/s
+  type: vless
+  server: 104.17.158.218
+  port: 2087
+  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
+  udp: true
+  network: ws
+  tls: true
+  servername: round-art-52ee.eadfgv.workers.dev
+  client-fingerprint: chrome
+  ws-opts:
+    path: /
+    headers:
+      Host: round-art-52ee.eadfgv.workers.dev
+- name: 🇫🇷FR_9|157KB/s
+  type: vless
+  server: 104.19.44.174
+  port: 2083
+  uuid: 56e4896e-90a9-4fe0-8480-90d3d68b9928
+  udp: true
+  network: ws
+  tls: true
+  servername: go.iranfree.de5.net
+  client-fingerprint: chrome
+  ws-opts:
+    path: /
+    headers:
+      Host: go.iranfree.de5.net
+- name: By EbraSha 🖥️
+  type: vless
+  server: 8.35.211.87
+  port: 2096
+  uuid: 56e4896e-90a9-4fe0-8480-90d3d68b9928
+  udp: true
+  network: ws
+  tls: true
+  servername: go.iranfree.de5.net
+  client-fingerprint: chrome
+  ws-opts:
+    path: /
+    headers:
+      Host: go.iranfree.de5.net
+- name: 🇫🇷FR_263|191KB/s|C002-260622
+  type: vless
+  server: 192.0.63.4
+  port: 80
+  uuid: 58c1b245-2ea0-40b9-b512-bd2bbe3cbe3f
+  udp: true
+  network: ws
+  ws-opts:
+    path: /pyip=Telegram🇨🇳 @WangCai2
+    headers:
+      Host: solitary-mountain-996f.223-38e.workers.dev
+- name: 🇫🇷_FR_法国
+  type: ss
+  server: 95.170.13.47
+  port: 65443
+  cipher: aes-256-cfb
+  password: 7eadc6dbe2ae
+  udp: true
+- name: shadowsocks-522222549
+  type: ss
+  server: 82.38.31.48
+  port: 443
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
 - name: shadowsocks-921920790
   type: ss
   server: 82.38.31.175
@@ -199,6 +201,17 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: oZIoA69Q8yhcQV8ka3Pa3A
   udp: true
+- name: 🇫🇷FR_305|232KB/s|C002-260622
+  type: vless
+  server: 45.12.30.40
+  port: 8880
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  udp: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: vms.lifetime28.workers.dev
 - name: shadowsocks-541381980
   type: ss
   server: 82.38.31.26
@@ -206,84 +219,23 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: oZIoA69Q8yhcQV8ka3Pa3A
   udp: true
-- name: 🇳🇱NL_85|445KB/s|A004-260618
-  type: ss
-  server: 82.38.31.164
-  port: 443
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
+- name: 🇫🇷FR_608|179KB/s|A004-260618
+  type: vless
+  server: 172.64.145.158
+  port: 8880
+  uuid: 00ff7e5f-9b6f-4401-aab9-4d044660411f
   udp: true
-- name: 🇬🇧GB_19|114KB/s|A004-260618
-  type: ss
-  server: 146.70.23.32
-  port: 8080
-  cipher: rc4-md5
-  password: 14fFPrbezE3HDZzsMOr6
-  udp: true
-- name: 🇩🇪 Join+Telegram:@SolVPN 🇩🇪-2
-  type: ss
-  server: 45.95.2.25
-  port: 8388
-  cipher: chacha20-ietf-poly1305
-  password: MzcxY
-  udp: true
-- name: shadowsocks-522222547
-  type: ss
-  server: 82.38.31.17
-  port: 443
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  udp: true
-- name: trojan-859609247
-  type: trojan
-  server: us01.duotg.top
-  port: 38261
-  password: 02cd3bac-2a78-4dbb-82b9-6b64084ddd8e
-  udp: true
-  sni: us01.duotg.top
-  skip-cert-verify: true
-- name: hysteria2-468883194
-  type: hysteria2
-  server: 66.94.121.46
-  port: 443
-  password: gf1:gfhysteria2024
-  udp: true
-  sni: www.broadcom.com
-  skip-cert-verify: true
-- name: 🇩🇪 Join+Telegram:@SolVPN 🇩🇪-3
-  type: ss
-  server: 92.5.185.32
-  port: 59924
-  cipher: 2022-blake3-chacha20-poly1305
-  password: zEoIXTFhh/Z+Mf6dR5l7gdbRVuB0tFFEFUqKxi8hOt8=
-  udp: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: summer-bonus-aa63.52-c03.workers.dev
 - name: shadowsocks-812343744
   type: ss
   server: 217.30.10.44
   port: 9076
   cipher: aes-256-cfb
   password: S2zDyyPcmZN2h8EC
-  udp: true
-- name: shadowsocks-696792825
-  type: ss
-  server: 181.41.201.242
-  port: 65443
-  cipher: aes-256-cfb
-  password: 7eadc6dbe2ae
-  udp: true
-- name: shadowsocks-1028203344
-  type: ss
-  server: 65.109.215.50
-  port: 13049
-  cipher: 2022-blake3-aes-256-gcm
-  password: rrR97O6JIRzSRG8uHimVCgLEssjipthiC4Hlieq/4/w=:Htb6AwARYBt+193LFyDnfe1fS+QDu9JHsiSw1waN0uc=
-  udp: true
-- name: 🇮🇪IE_4|205KB/s|S004-260618
-  type: ss
-  server: 52.16.228.57
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
   udp: true
 - name: shadowsocks-717969033
   type: ss
@@ -292,52 +244,63 @@ proxies:
   cipher: aes-256-cfb
   password: jt2ekBNc9HuVtm2a
   udp: true
-- name: hysteria2-819784927
+- name: 🇮🇪 | @WhiteDNS | IE12|20.7MB/s|DNSOK|GPT⁺-IE
+  type: ss
+  server: 54.246.9.69
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
+  udp: true
+- name: shadowsocks-951685696
+  type: ss
+  server: 84.247.155.196
+  port: 443
+  cipher: aes-256-gcm
+  password: 3eOFeNssde7PYYMv
+  udp: true
+- name: hysteria2-468883282
   type: hysteria2
-  server: 89.125.156.80
+  server: 5.129.235.85
   port: 443
-  password: 2vwMMy8t5Sjl5lfK9dNF1OrU9d0K25V2RNWLbTKwJ6o
+  password: gf1:gfhysteria2024
   udp: true
-  sni: pixelcast.wwwinternetvideo.click
+  sni: speedtest.tinkoff.ru
   skip-cert-verify: true
-- name: 🇫🇷 Join+Telegram:@SolVPN 🇫🇷
-  type: trojan
-  server: 104.19.64.105
+- name: shadowsocks-696780673
+  type: ss
+  server: 94.72.127.58
   port: 443
-  password: humanity
+  cipher: aes-256-gcm
+  password: goRz8CTFE6zPZXIA
   udp: true
-  sni: www.calmlunch.com
+- name: '荷兰 #1'
+  type: hysteria2
+  server: hysteria.udpgw.com
+  port: 8443
+  password: HowdyHysteria2023w0W
+  udp: true
+  sni: sni-here.com
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: HysteriaHowdy
+- name: 🌐 Ukraine | WebSocket | @anonymouskeys
+  type: vless
+  server: 104.18.205.156
+  port: 2052
+  uuid: ef23616d-8a9d-4b22-b2f5-9bda864de179
+  udp: true
   network: ws
   ws-opts:
-    path: /assignment
+    path: /4akspsofhsbt
     headers:
-      Host: www.calmlunch.com
-- name: 🇺🇸US_299|114KB/s|V004-260618
-  type: vless
-  server: 162.35.231.94
-  port: 443
-  uuid: b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb
+      Host: index.arcane509.workers.dev
+- name: shadowsocks-696792832
+  type: ss
+  server: 82.23.146.72
+  port: 65443
+  cipher: aes-256-cfb
+  password: 7eadc6dbe2ae
   udp: true
-  network: xhttp
-  tls: true
-  servername: net.savesafe.run
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: BvR2i3CJEL9QwNAWKqkkHY3rnqJdOFLyKw5DZ9sA2C8
-    short-id: 812609fa663c57fb
-- name: ❓Other_90|393KB/s|A004-260618
-  type: vless
-  server: 78.129.150.210
-  port: 443
-  uuid: 541ba30e-bd77-4713-9532-347a0302e5ce
-  udp: true
-  tls: true
-  servername: strapi.io
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY
-    short-id: fd55b698ee8c3629
-  flow: xtls-rprx-vision
 - name: hy2
   type: hysteria2
   server: 62.210.124.146
@@ -346,40 +309,7 @@ proxies:
   udp: true
   sni: www.microsoft.com
   skip-cert-verify: true
-- name: 🇫🇷FR_252|178KB/s|A004-260618
-  type: vless
-  server: 83.136.211.167
-  port: 443
-  uuid: df880bf8-2635-4a83-a6bf-91bb36df284b
-  udp: true
-  tls: true
-  servername: fr2.janusgate.org
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: nilJ07r1KZ0-KhmRNYeICXGhM9HeG9uxnRaqjYz3fWg
-    short-id: 6ed1d644822b2951
-  flow: xtls-rprx-vision
-- name: shadowsocks-819466279
-  type: ss
-  server: 185.135.86.175
-  port: 9033
-  cipher: aes-256-cfb
-  password: UTJA57ypk2XKQpnm
-  udp: true
-- name: 🇺🇸US_378|194KB/s|P002-260618
-  type: vless
-  server: 162.35.231.73
-  port: 443
-  uuid: b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb
-  udp: true
-  network: xhttp
-  tls: true
-  servername: net.savesafe.run
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: BvR2i3CJEL9QwNAWKqkkHY3rnqJdOFLyKw5DZ9sA2C8
-    short-id: 812609fa663c57fb
-- name: hy2-2
+- name: 德国
   type: hysteria2
   server: pixelcast.wwwinternetvideo.click
   port: 443
@@ -387,85 +317,32 @@ proxies:
   udp: true
   sni: pixelcast.wwwinternetvideo.click
   skip-cert-verify: true
-- name: vless-1014131047
-  type: vless
-  server: 83.136.210.237
-  port: 443
-  uuid: df880bf8-2635-4a83-a6bf-91bb36df284b
+- name: shadowsocks-817206649
+  type: ss
+  server: 49.254.204.133
+  port: 1774
+  cipher: aes-256-cfb
+  password: 1234!@#$
   udp: true
-  tls: true
-  servername: fr2.janusgate.org
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: nilJ07r1KZ0-KhmRNYeICXGhM9HeG9uxnRaqjYz3fWg
-    short-id: 6ed1d644822b2951
-  flow: xtls-rprx-vision
-- name: vless-1014979807
-  type: vless
-  server: 83.136.208.170
-  port: 443
-  uuid: df880bf8-2635-4a83-a6bf-91bb36df284b
-  udp: true
-  tls: true
-  servername: fr2.janusgate.org
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: nilJ07r1KZ0-KhmRNYeICXGhM9HeG9uxnRaqjYz3fWg
-    short-id: 6ed1d644822b2951
-  flow: xtls-rprx-vision
-- name: 🇫🇷FR_247|119KB/s|A004-260618
-  type: vless
-  server: 83.136.210.59
-  port: 443
-  uuid: df880bf8-2635-4a83-a6bf-91bb36df284b
-  udp: true
-  tls: true
-  servername: fr2.janusgate.org
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: nilJ07r1KZ0-KhmRNYeICXGhM9HeG9uxnRaqjYz3fWg
-    short-id: 6ed1d644822b2951
-  flow: xtls-rprx-vision
-- name: hysteria2-468018931
+- name: 👉🆔@v2ray_configs_pool📡🇳🇱®️The Netherlands©️Dronten🅿️ping:34.73ms
   type: hysteria2
-  server: 5.129.235.85
+  server: 130.49.161.70
   port: 443
-  password: gf1:gfhysteria2024
+  password: p7Q76LzlnS4hIzr1W3staBOnUe_WwSkR
   udp: true
-  sni: vk.com
+  sni: hy2.aspidnet.xyz
   skip-cert-verify: true
-- name: hysteria2-868400792
+  obfs: salamander
+  obfs-password: rG07s3COMIEvdnQipRyWzx_H_2xygNC3
+- name: US   HYSTERIA2-TCP-NTLS - Kyonix Networks Limited  144.31.221.57
   type: hysteria2
-  server: 144.31.221.57
+  server: player.wwwinternetvideo.click
   port: 443
   password: V1UQuwa-4PRIDW2paxrPe58RcxXHPGyFIGS-5QojaM8
   udp: true
   sni: player.wwwinternetvideo.click
-- name: hy2-3
-  type: hysteria2
-  server: 144.31.148.87
-  port: 443
-  password: 2691cbe7c20cced8b0aeb12c812d09077e5b3eec7669fb8f
-  udp: true
-  sni: replay.wwwinternetvideo.click
   skip-cert-verify: true
-- name: hysteria2-855659702
-  type: hysteria2
-  server: 217.60.33.215
-  port: 443
-  password: 865e271f7c97b549b024255c9d02cebe9cc0c2c070a82b1e11bb11b9cd88dd01
-  udp: true
-  sni: streambox.wwwinternetvideo.click
-  skip-cert-verify: true
-- name: BR   HYSTERIA2-TCP-NTLS - LARUS Limited  45.192.12.93
-  type: hysteria2
-  server: admin.wwwinternetvideo.click
-  port: 443
-  password: YutbgyXL1mGaSlBXDoEucWvYbrDCINgUcQ6R6_At5Pjr2xCc
-  udp: true
-  sni: admin.wwwinternetvideo.click
-  skip-cert-verify: true
-- name: hysteria2-768953025
+- name: '波兰 #1'
   type: hysteria2
   server: streambox.wwwinternetvideo.click
   port: 443
@@ -473,13 +350,33 @@ proxies:
   udp: true
   sni: streambox.wwwinternetvideo.click
   skip-cert-verify: true
-- name: hy2-4
+- name: hy2-2
   type: hysteria2
-  server: 217.60.182.79
+  server: 91.196.32.163
   port: 443
-  password: sOiWCQ2AdIV0OWNuqQVyWp4JZnRxdyLROSjX
+  password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
   udp: true
-  sni: cabinet.wwwinternetvideo.click
+  sni: germany3.h2corp.local
+  skip-cert-verify: true
+- name: 🇮🇹 Italy, Modica | [BL]
+  type: vless
+  server: 202.165.67.16
+  port: 8443
+  uuid: d53f098c-c146-4c16-b8fc-263743fdb6b3
+  udp: true
+  tls: true
+  servername: mila.4ch.pro
+  client-fingerprint: safari
+  reality-opts:
+    public-key: vSwth-8n5PZiAc27bkA_6qlxhuPOC0uBft7F2DWrPXs
+    short-id: 5ecd85141e301108
+- name: GB   HYSTERIA2-TCP-NTLS  31.76.30.97
+  type: hysteria2
+  server: fast.wwwinternetvideo.click
+  port: 443
+  password: C91FbOXGY9XRymrcEebtax9R1Nj62UizoT8S6kCb7xwey8IE
+  udp: true
+  sni: fast.wwwinternetvideo.click
   skip-cert-verify: true
 - name: hysteria2-1027317458
   type: hysteria2
@@ -489,13 +386,13 @@ proxies:
   udp: true
   sni: fast.wwwinternetvideo.click
   skip-cert-verify: true
-- name: GB   HYSTERIA2-TCP-NTLS  31.76.30.97
+- name: hysteria2-855659704
   type: hysteria2
-  server: fast.wwwinternetvideo.click
+  server: 144.31.221.57
   port: 443
-  password: C91FbOXGY9XRymrcEebtax9R1Nj62UizoT8S6kCb7xwey8IE
+  password: V1UQuwa-4PRIDW2paxrPe58RcxXHPGyFIGS-5QojaM8
   udp: true
-  sni: fast.wwwinternetvideo.click
+  sni: player.wwwinternetvideo.click
   skip-cert-verify: true
 - name: TR   HYSTERIA2-TCP-NTLS - PENTECH BILISIM TEKNOLOJILERI SANAYI VE TICARET
     LIMITED SIRKETi  217.60.182.79
@@ -506,44 +403,268 @@ proxies:
   udp: true
   sni: cabinet.wwwinternetvideo.click
   skip-cert-verify: true
-- name: shadowsocks-696792832
-  type: ss
-  server: 82.23.146.72
-  port: 65443
-  cipher: aes-256-cfb
-  password: 7eadc6dbe2ae
-  udp: true
-- name: Germany 🇩🇪
+- name: hysteria2-855659702
   type: hysteria2
-  server: de.1.23.h2corp.org
+  server: 217.60.33.215
+  port: 443
+  password: 865e271f7c97b549b024255c9d02cebe9cc0c2c070a82b1e11bb11b9cd88dd01
+  udp: true
+  sni: streambox.wwwinternetvideo.click
+  skip-cert-verify: true
+- name: IE   HYSTERIA2-TCP-NTLS  89.125.156.80
+  type: hysteria2
+  server: 89.125.156.80
+  port: 443
+  password: 2vwMMy8t5Sjl5lfK9dNF1OrU9d0K25V2RNWLbTKwJ6o
+  udp: true
+  sni: pixelcast.wwwinternetvideo.click
+  skip-cert-verify: true
+- name: hy2-3
+  type: hysteria2
+  server: 217.60.182.79
+  port: 443
+  password: sOiWCQ2AdIV0OWNuqQVyWp4JZnRxdyLROSjX
+  udp: true
+  sni: cabinet.wwwinternetvideo.click
+  skip-cert-verify: true
+- name: hy2-4
+  type: hysteria2
+  server: 144.31.148.87
+  port: 443
+  password: 2691cbe7c20cced8b0aeb12c812d09077e5b3eec7669fb8f
+  udp: true
+  sni: replay.wwwinternetvideo.click
+  skip-cert-verify: true
+- name: hysteria2-589844075
+  type: hysteria2
+  server: admin.wwwinternetvideo.click
+  port: 443
+  password: YutbgyXL1mGaSlBXDoEucWvYbrDCINgUcQ6R6_At5Pjr2xCc
+  udp: true
+  sni: admin.wwwinternetvideo.click
+- name: hy2-5
+  type: hysteria2
+  server: 64.188.98.171
   port: 443
   password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
   udp: true
   sni: germany3.h2corp.local
   skip-cert-verify: true
-- name: hy2-5
-  type: hysteria2
-  server: 185.156.44.99
-  port: 443
-  password: gf1:gfhysteria2024
+- name: 🇹🇭_TH_泰国
+  type: ss
+  server: 103.169.67.34
+  port: 65443
+  cipher: aes-256-cfb
+  password: 7eadc6dbe2ae
   udp: true
-  sni: css.rbxcdn.com
-  skip-cert-verify: true
-- name: 🇫🇷[www.v2nodes.com] Trojan VPN-FR-15320821
-  type: trojan
-  server: 185.255.179.166
-  port: 443
-  password: humanity
+- name: 🇷🇺 Russia | 🌐 | [*CIDR]
+  type: vless
+  server: 185.147.27.49
+  port: 8443
+  uuid: 435fc5e1-f12b-468b-b1d4-802a9ce86ba3
   udp: true
-  sni: www.calmlunch.com
+  tls: true
+  servername: user-6a936c8a.noooo.win
+  client-fingerprint: safari
+  flow: xtls-rprx-vision
+- name: 🇫🇮 Finland | [*CIDR]
+  type: vless
+  server: 107.150.93.13
+  port: 443
+  uuid: 0d81b209-0722-4b32-9163-542f54ba56ed
+  udp: true
+  network: xhttp
+  tls: true
+  servername: 0d81b209.ferrin.uk
+  client-fingerprint: firefox
+- name: 🇫🇮 Finland | [*CIDR]-2
+  type: vless
+  server: 107.150.93.18
+  port: 443
+  uuid: 0d81b209-0722-4b32-9163-542f54ba56ed
+  udp: true
+  network: xhttp
+  tls: true
+  servername: 0d81b209.ferrin.uk
+  client-fingerprint: firefox
+- name: 🇷🇺 Russia | 🌐 [*CIDR]
+  type: vless
+  server: 201.51.8.235
+  port: 2200
+  uuid: 099c6e3f-e8d3-41d4-95f2-ef2eafb51cdc
+  udp: true
   network: ws
   ws-opts:
-    path: /assignment
+    path: /v1
     headers:
-      Host: www.calmlunch.com
+      Host: rzd.ru
+- name: '✅  @vistav2ray  👈👈کانال ما ✅ #1'
+  type: hysteria2
+  server: 31.76.80.69
+  port: 443
+  password: 6aab8efdf13945829ae3699c342be406
+  udp: true
+  sni: fiproxy1.lockdwn.com
+  obfs: salamander
+  obfs-password: uw9b2qq5rx
+- name: 🇰🇿 Kazakhstan | [*CIDR]
+  type: vless
+  server: 165.231.157.46
+  port: 443
+  uuid: 435fc5e1-f12b-468b-b1d4-802a9ce86ba3
+  udp: true
+  network: xhttp
+  tls: true
+  servername: sentry.allepal.ee
+  client-fingerprint: qq
+  reality-opts:
+    public-key: XBBVeMURFu7jmYJ9MZwjEWgfQlGTnRs0B5So5Fy7jWs
+    short-id: a3f9c2d4e8b1a7c6
+- name: 🇫🇮 Finland | [*CIDR]-3
+  type: vless
+  server: 107.150.93.6
+  port: 443
+  uuid: 435fc5e1-f12b-468b-b1d4-802a9ce86ba3
+  udp: true
+  network: xhttp
+  tls: true
+  servername: 435fc5e1.ferrin.uk
+  client-fingerprint: firefox
+- name: 🇰🇿 Kazakhstan | [*CIDR]-2
+  type: vless
+  server: 165.231.157.62
+  port: 443
+  uuid: 435fc5e1-f12b-468b-b1d4-802a9ce86ba3
+  udp: true
+  network: xhttp
+  tls: true
+  servername: sentry.allepal.ee
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: XBBVeMURFu7jmYJ9MZwjEWgfQlGTnRs0B5So5Fy7jWs
+    short-id: a3f9c2d4e8b1a7c6
+- name: 🇮🇪IE-34.241.245.82-0431
+  type: ss
+  server: 34.241.245.82
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
+  udp: true
+- name: 🇧🇬 Bulgaria, Sofia | 🌐 | [BL]
+  type: vless
+  server: 195.123.226.114
+  port: 443
+  uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
+  udp: true
+  tls: true
+  servername: eu-central.cendora.ru
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: b-Cm9hX-3UHsS1L_lnUB6AMjuKhlN1IDdBbZ506itjI
+    short-id: 00bca5982f82d083
+  flow: xtls-rprx-vision
+- name: 🇪🇪 Estonia | [*CIDR]
+  type: vless
+  server: 165.231.157.108
+  port: 443
+  uuid: 435fc5e1-f12b-468b-b1d4-802a9ce86ba3
+  udp: true
+  network: xhttp
+  tls: true
+  servername: app-6a936c8a.adhil.uk
+  client-fingerprint: safari
+- name: 🇰🇿 Kazakhstan | [*CIDR]-3
+  type: vless
+  server: 165.231.157.38
+  port: 443
+  uuid: 0d81b209-0722-4b32-9163-542f54ba56ed
+  udp: true
+  network: xhttp
+  tls: true
+  servername: sentry.allepal.ee
+  client-fingerprint: qq
+  reality-opts:
+    public-key: XBBVeMURFu7jmYJ9MZwjEWgfQlGTnRs0B5So5Fy7jWs
+    short-id: a3f9c2d4e8b1a7c6
+- name: 🇰🇿 Kazakhstan | [*CIDR]-4
+  type: vless
+  server: 165.231.157.6
+  port: 443
+  uuid: 435fc5e1-f12b-468b-b1d4-802a9ce86ba3
+  udp: true
+  network: xhttp
+  tls: true
+  servername: sentry.allepal.ee
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: XBBVeMURFu7jmYJ9MZwjEWgfQlGTnRs0B5So5Fy7jWs
+    short-id: a3f9c2d4e8b1a7c6
+- name: 🇰🇿 Kazakhstan | [*CIDR]-5
+  type: vless
+  server: 165.231.157.54
+  port: 443
+  uuid: 0d81b209-0722-4b32-9163-542f54ba56ed
+  udp: true
+  network: xhttp
+  tls: true
+  servername: sentry.allepal.ee
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: XBBVeMURFu7jmYJ9MZwjEWgfQlGTnRs0B5So5Fy7jWs
+    short-id: a3f9c2d4e8b1a7c6
+- name: 🇰🇿 Kazakhstan | [*CIDR]-6
+  type: vless
+  server: 165.231.157.94
+  port: 443
+  uuid: 435fc5e1-f12b-468b-b1d4-802a9ce86ba3
+  udp: true
+  network: xhttp
+  tls: true
+  servername: sentry.allepal.ee
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: XBBVeMURFu7jmYJ9MZwjEWgfQlGTnRs0B5So5Fy7jWs
+    short-id: a3f9c2d4e8b1a7c6
+- name: 🇫🇷FR_758|235KB/s|C002-260622
+  type: vless
+  server: 135.84.79.30
+  port: 8880
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  udp: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: vms.lifetime35.workers.dev
+- name: 🇰🇿 Kazakhstan | [*CIDR]-7
+  type: vless
+  server: 165.231.157.78
+  port: 443
+  uuid: 435fc5e1-f12b-468b-b1d4-802a9ce86ba3
+  udp: true
+  network: xhttp
+  tls: true
+  servername: sentry.allepal.ee
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: XBBVeMURFu7jmYJ9MZwjEWgfQlGTnRs0B5So5Fy7jWs
+    short-id: a3f9c2d4e8b1a7c6
+- name: 🇰🇿 Kazakhstan | [*CIDR]-8
+  type: vless
+  server: 165.231.157.14
+  port: 443
+  uuid: 435fc5e1-f12b-468b-b1d4-802a9ce86ba3
+  udp: true
+  network: xhttp
+  tls: true
+  servername: sentry.allepal.ee
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: XBBVeMURFu7jmYJ9MZwjEWgfQlGTnRs0B5So5Fy7jWs
+    short-id: a3f9c2d4e8b1a7c6
 - name: end-gfw.com22@kr64
   type: vless
-  server: 52.79.163.181
+  server: 52.78.230.73
   port: 8686
   uuid: 1a17b19d-4896-4531-af79-6e91d8ef8228
   udp: true
@@ -553,24 +674,6 @@ proxies:
   reality-opts:
     public-key: A3NXnUIT-W0m1Y_leRnv5so2IeCvk9FCFgL31PulfTw
     short-id: 628b3c90c98ead4f
-- name: hy2-6
-  type: hysteria2
-  server: nl1.sferavpn.pro
-  port: 443
-  password: cd74c0a406664a5bc0bac098220a2468
-  udp: true
-  sni: nl1.sferavpn.pro
-  skip-cert-verify: true
-  obfs: salamander
-  obfs-password: 44f1c1e2f8b99e792ceed574627a1eb0
-- name: hy2-7
-  type: hysteria2
-  server: 91.196.32.163
-  port: 443
-  password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
-  udp: true
-  sni: germany3.h2corp.local
-  skip-cert-verify: true
 - name: vless-860560565
   type: vless
   server: 162.128.157.164
@@ -584,58 +687,121 @@ proxies:
     public-key: TP_bpIPUtjdxxGA9j7mpsHtSDfM2HMSZFNWW9MtDPT0
     short-id: 14156e3ac23212cc
   flow: xtls-rprx-vision
-- name: US   HYSTERIA2-TCP-NTLS - DIGITALOCEAN-ASN  159.223.157.129
-  type: hysteria2
-  server: 159.223.157.129
-  port: 8443
-  password: suAmQS9LlInNq4Wumh-FUF4GGlpgmG_g
-  udp: true
-  skip-cert-verify: true
-- name: hy2-8
-  type: hysteria2
-  server: 64.188.98.171
-  port: 443
-  password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
-  udp: true
-  sni: germany3.h2corp.local
-  skip-cert-verify: true
-- name: 🇫🇷FR_55|179KB/s|F003-260618
+- name: 🇰🇿 Kazakhstan | [*CIDR]-9
   type: vless
-  server: 35.157.240.237
+  server: 165.231.157.30
   port: 443
-  uuid: b585dc5e-55bf-4a8b-913a-27c9ccac05c3
+  uuid: 0d81b209-0722-4b32-9163-542f54ba56ed
+  udp: true
+  network: xhttp
+  tls: true
+  servername: sentry.allepal.ee
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: XBBVeMURFu7jmYJ9MZwjEWgfQlGTnRs0B5So5Fy7jWs
+    short-id: a3f9c2d4e8b1a7c6
+- name: hy2-6
+  type: hysteria2
+  server: 185.156.44.99
+  port: 443
+  password: gf1:gfhysteria2024
+  udp: true
+  sni: css.rbxcdn.com
+  skip-cert-verify: true
+- name: 🇰🇿 Kazakhstan | [*CIDR]-10
+  type: vless
+  server: 165.231.157.70
+  port: 443
+  uuid: 435fc5e1-f12b-468b-b1d4-802a9ce86ba3
+  udp: true
+  network: xhttp
+  tls: true
+  servername: sentry.allepal.ee
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: XBBVeMURFu7jmYJ9MZwjEWgfQlGTnRs0B5So5Fy7jWs
+    short-id: a3f9c2d4e8b1a7c6
+- name: 🇫🇮 Finland | [*CIDR]-4
+  type: vless
+  server: 72.56.39.215
+  port: 443
+  uuid: 0bc09995-7ee6-462e-bfc3-75c880b9d675
+  udp: true
+  tls: true
+  servername: fast18.slopllex.app
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+- name: 👉🆔@v2ray_configs_pool📡🇩🇪®️Germany©️Frankfurt am Main🅿️ping:28.54ms
+  type: trojan
+  server: 185.255.179.166
+  port: 443
+  password: humanity
+  udp: true
+  sni: www.calmlunch.com
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.calmlunch.com
+- name: hysteria2-957013233
+  type: hysteria2
+  server: 134.185.87.191
+  port: 443
+  password: b492c1192f7aa3433c9818baf5ebb4ff
+  udp: true
+  sni: sb.jmx666.eu.cc
+  skip-cert-verify: true
+- name: 🇫🇷FR_284|323KB/s|C002-260622
+  type: vless
+  server: 172.67.219.176
+  port: 2087
+  uuid: f2f4e2dc-3e7b-402f-a461-b48acc6aa310
   udp: true
   network: ws
   tls: true
-  servername: bab-6.site
+  servername: sTeEp-BoNUs-8E6A.AmIrhon1376.woRKeRS.dEv
   client-fingerprint: chrome
   ws-opts:
-    path: /vws/
+    path: /eyJqdW5rIjoid2JBOTRVclNMOVdBSVQiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119?ed=2560
     headers:
-      Host: bab-6.site
-- name: FR - zhuhai.uk 01
+      Host: steep-bonus-8e6a.amirhon1376.workers.dev
+- name: 🇰🇿KZ-38.107.234.57-0582
+  type: vmess
+  server: 38.107.234.57
+  port: 80
+  uuid: 567f4be5-12ab-42e1-b8d9-db6fd1fdd31c
+  alterId: 0
+  cipher: auto
+  udp: true
+  network: ws
+  ws-opts:
+    path: /vmess/
+    headers:
+      Host: 3h-kazakhstan1.09vpn.com
+- name: '美国 #2'
+  type: hysteria2
+  server: nl1.sferavpn.pro
+  port: 443
+  password: cd74c0a406664a5bc0bac098220a2468
+  udp: true
+  sni: nl1.sferavpn.pro
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: 44f1c1e2f8b99e792ceed574627a1eb0
+- name: By EbraSha 🎯
   type: vless
-  server: 155.117.199.13
-  port: 39399
-  uuid: f06c6039-a489-3d78-a676-ed43be6deca3
+  server: 104.17.26.45
+  port: 8880
+  uuid: 2e9012a2-7f8c-4233-b78b-5228a9a4951b
   udp: true
-  tls: true
-  servername: cdnjs.cloudflare.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: JrWOojSFwFA93YjsiQkDydTItQzNAsXsHU24HuWGWjA
-    short-id: bc8e3658db7d1323
-  flow: xtls-rprx-vision
-- name: shadowsocks-696792831
-  type: ss
-  server: 31.57.35.41
-  port: 65443
-  cipher: aes-256-cfb
-  password: 7eadc6dbe2ae
-  udp: true
+  network: ws
+  ws-opts:
+    path: /pyip=ProxyIP.KR.CMLiussss.net
+    headers:
+      Host: icy-breeze-126c.211-eb3.workers.dev
 - name: end-gfw.com12@sg89
   type: vless
-  server: 18.143.157.1
+  server: 13.212.225.32
   port: 8686
   uuid: 1a17b19d-4896-4531-af79-6e91d8ef8228
   udp: true
@@ -645,30 +811,34 @@ proxies:
   reality-opts:
     public-key: A3NXnUIT-W0m1Y_leRnv5so2IeCvk9FCFgL31PulfTw
     short-id: 628b3c90c98ead4f
-- name: vless-1019699179
+- name: 🇫🇷FR_437|600KB/s|M003-260806
   type: vless
-  server: 38.107.236.178
-  port: 443
-  uuid: fda82db3-3c0f-4122-87d9-1ed08059bc92
-  udp: true
-  network: ws
-  ws-opts:
-    path: /
-    headers: {}
-- name: vless-1022611001
-  type: vless
-  server: 104.17.3.81
-  port: 443
-  uuid: c6c1760f-f6af-4a54-8600-cf9c9971f7d8
+  server: 172.67.214.25
+  port: 2053
+  uuid: ef23616d-8a9d-4b22-b2f5-9bda864de179
   udp: true
   network: ws
   tls: true
-  servername: sgdo1.cassanova.biz.id
+  servername: INDEX.Arcane509.Workers.DEV
+  client-fingerprint: chrome
   ws-opts:
-    path: /vless
+    path: /assets
     headers:
-      Host: sgdo1.cassanova.biz.id
-- name: hy2-9
+      Host: index.arcane509.workers.dev
+- name: 🇰🇿 Kazakhstan | [*CIDR]-11
+  type: vless
+  server: 165.231.157.22
+  port: 443
+  uuid: 0d81b209-0722-4b32-9163-542f54ba56ed
+  udp: true
+  network: xhttp
+  tls: true
+  servername: sentry.allepal.ee
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: XBBVeMURFu7jmYJ9MZwjEWgfQlGTnRs0B5So5Fy7jWs
+    short-id: a3f9c2d4e8b1a7c6
+- name: hy2-7
   type: hysteria2
   server: de1.sferavpn.pro
   port: 443
@@ -677,441 +847,368 @@ proxies:
   sni: de1.sferavpn.pro
   obfs: salamander
   obfs-password: 44f1c1e2f8b99e792ceed574627a1eb0
-- name: hy2-10
-  type: hysteria2
-  server: hysteria.udpgw.com
+- name: 🇫🇷FR_29|244KB/s|C002-260622
+  type: vless
+  server: 172.67.148.26
+  port: 80
+  uuid: 95de071f-747c-dc07-36ac-5c0854a9e50e
+  udp: true
+  network: ws
+  ws-opts:
+    path: /sync
+    headers:
+      Host: restless-boat-ebf2.moha102030.workers.dev
+- name: By EbraSha 📛
+  type: vmess
+  server: 172.67.161.144
   port: 8443
-  password: HowdyHysteria2023w0W
-  udp: true
-  sni: sni-here.com
-  skip-cert-verify: true
-  obfs: salamander
-  obfs-password: HysteriaHowdy
-- name: 🇺🇸 Join+Telegram:@SolVPN 🇺🇸
-  type: ss
-  server: 15.204.246.108
-  port: 8881
-  cipher: aes-256-gcm
-  password: kDWvXYZoTBcGkC4
-  udp: true
-- name: 👉🆔@v2ray_configs_pool📡🇳🇱®️The Netherlands©️Dronten🅿️ping:136.58ms
-  type: hysteria2
-  server: 130.49.161.70
-  port: 443
-  password: p7Q76LzlnS4hIzr1W3staBOnUe_WwSkR
-  udp: true
-  sni: hy2.aspidnet.xyz
-  obfs: salamander
-  obfs-password: rG07s3COMIEvdnQipRyWzx_H_2xygNC3
-- name: By EbraSha ♦️
-  type: trojan
-  server: 199.232.78.150
-  port: 443
-  password: MiTiVPN
-  udp: true
-  sni: ssl.fastly.com
-  network: ws
-  ws-opts:
-    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/s-g@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
-    headers:
-      Host: s4z-mitivpn--mitivpn------mitivpn.global.ssl.fastly.net
-- name: ☁ @anonymouskeys
-  type: vless
-  server: 172.64.80.1
-  port: 2053
-  uuid: 2b8738de-1af5-4267-b101-c05707769ed4
-  udp: true
-  network: ws
-  tls: true
-  servername: fans.liverpool.qzz.io
-  client-fingerprint: chrome
-  ws-opts:
-    path: /
-    headers: {}
-- name: By EbraSha ⚙️
-  type: vless
-  server: 135.84.64.80
-  port: 80
-  uuid: 59860b15-b2d9-47f9-9b92-81bd1639fcc5
-  udp: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: 23-lsjfjwiposkfls.hc2021.cfd
-- name: 🌐 Luxembourg | WebSocket | @anonymouskeys
-  type: vless
-  server: 104.18.27.48
-  port: 80
-  uuid: c5b129d7-f133-4b34-a9c6-68c9a8f70248
-  udp: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: EMotioNaL-peRMIsSiONf1bs65u5f4.EcOTOuRISs.Co.uK
-- name: By EbraSha 🚀
-  type: vmess
-  server: 45.131.209.253
-  port: 80
-  uuid: 9ac947aa-de86-41c3-9a60-4c061c7c95f0
-  alterId: 0
-  cipher: none
-  udp: true
-  network: ws
-  ws-opts:
-    path: /vmess
-    headers:
-      Host: dl3.plot.cценарий.劇情голов0рез.fir3brand.煽動者追逐雷恩.погонезаpейн.wonkacapitano.buzz.
-- name: 🏁RELAY-172.67.72.172-4096
-  type: vmess
-  server: 172.67.72.172
-  port: 443
-  uuid: 1bff15f1-a71d-4f07-b8bf-9471708eff8b
+  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
   alterId: 0
   cipher: auto
   udp: true
   network: ws
   tls: true
+  servername: v2ray1.dozapp.xyz
   ws-opts:
-    path: /fthe4gsefgtdu
+    path: /lMnsZUN4/
     headers:
-      Host: nat.998808.xyz
-- name: 🏳[www.v2nodes.com] vless-
-  type: vless
-  server: 172.64.53.42
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  network: ws
-  tls: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  client-fingerprint: chrome
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🇯🇵 Join+Telegram:@SolVPN 🇯🇵
-  type: vless
-  server: 45.130.125.20
-  port: 2087
-  uuid: d00ef066-1c2b-4af9-8795-7c998572d13f
-  udp: true
-  network: xhttp
-  tls: true
-  servername: sni.mmad.kdns.fr
-  client-fingerprint: chrome
-- name: 🏁RELAY-190.93.245.126-0643
+      Host: v2ray1.dozapp.xyz
+- name: 🇨🇳_CN_中国->🇺🇸_US_美国
   type: vmess
-  server: 190.93.245.126
-  port: 443
-  uuid: af146786-b15d-40a7-9267-e2ed5e1bcd64
-  alterId: 0
+  server: v4.hdacd.com
+  port: 30804
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  alterId: 2
   cipher: auto
   udp: true
-  network: ws
-  tls: true
-  ws-opts:
-    path: /
-    headers:
-      Host: m3.v2rayfree1.xyz
-- name: 🇺🇸 ShatakVPN 495560
+- name: By EbraSha 🎛️
   type: vless
-  server: 104.18.2.67
-  port: 443
-  uuid: 65c56e1f-5c41-40bc-b0b5-9346772476ca
-  udp: true
-  network: ws
-  tls: true
-  servername: in.520782.xyz
-  ws-opts:
-    path: /cdn/packages/runtime-core.tar.gz
-    headers:
-      Host: in.520782.xyz
-- name: 🇨🇦155369 | ⚡️Telegram = t.me/SOSkeyNET
-  type: trojan
-  server: 104.21.72.201
-  port: 2096
-  password: 0hbl*0RB4T%2CLSk%3BJK
-  udp: true
-  sni: 14SW2KRBEO0wv7GZ32H3BnJ.HalABiA061.workeRs.DEv
-  network: ws
-  ws-opts:
-    path: /tr/d2y5re8Z9iqkUtWNtSR?ed=2560
-    headers:
-      Host: 14sw2krbeo0wv7gz32h3bnj.halabia061.workers.dev
-- name: By EbraSha ⚡
-  type: trojan
-  server: 172.67.130.66
-  port: 443
-  password: trojan
-  udp: true
-  sni: test-a23.pages.dev
-- name: ☁ @anonymouskeys-2
-  type: vless
-  server: 104.19.47.188
-  port: 8443
-  uuid: 56e4896e-90a9-4fe0-8480-90d3d68b9928
-  udp: true
-  network: ws
-  tls: true
-  servername: go.iranfree.de5.net
-  client-fingerprint: chrome
-  ws-opts:
-    path: /
-    headers: {}
-- name: By EbraSha 📱
-  type: vless
-  server: 172.66.138.99
-  port: 80
-  uuid: 68b48eeb-5770-4eb3-9b77-deeb77a41ccf
-  udp: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: varzesh3.varzesh.dpdns.org
-- name: 🌐 Luxembourg | WebSocket | @anonymouskeys-2
-  type: vless
-  server: 154.197.64.253
+  server: 104.16.99.215
   port: 8880
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  uuid: 0bd6aa8d-3bdb-4fa3-893e-75a844e2e409
   udp: true
   network: ws
   ws-opts:
-    path: /Free-VPN-CF-Geo-Project/HK?ed=2560
+    path: /pyip=ProxyIP.JP.CMLiussss.net
     headers:
-      Host: joss.jak.biz.id
-- name: By EbraSha 🔌
+      Host: wispy-cake-ec69.193-bc6.workers.dev
+- name: 🇨🇳 China, Kunming | [BL]
   type: vmess
-  server: 8.8.8.8
-  port: 53
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  server: 150.242.244.116
+  port: 2648
+  uuid: ad298d1d-2ae9-46fa-895c-f0401f38b02c
   alterId: 0
   cipher: auto
   udp: true
-  network: tcp,udp
-- name: 🏁RELAY-45.95.241.251-1446
+- name: By EbraSha 🧊
   type: vmess
-  server: 45.95.241.251
+  server: 172.67.167.78
+  port: 8443
+  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
+  alterId: 0
+  cipher: auto
+  udp: true
+  network: ws
+  tls: true
+  servername: v2ray1.dozapp.xyz
+  ws-opts:
+    path: /lMnsZUN4/
+    headers:
+      Host: v2ray1.dozapp.xyz
+- name: 🇨🇳_CN_中国->🇺🇸_US_美国-2
+  type: ss
+  server: 121.46.230.233
+  port: 65443
+  cipher: aes-256-cfb
+  password: 7eadc6dbe2ae
+  udp: true
+- name: 🇬🇧 United Kingdom, Gosport | [BL]
+  type: vless
+  server: 95.154.196.62
   port: 443
-  uuid: d1ace408-1102-4919-9ee8-88f85c8a91e3
+  uuid: a6de5675-5bfe-4fc2-b9b4-4bf4a24f6474
+  udp: true
+  tls: true
+  servername: foodnetwork.com
+  client-fingerprint: safari
+  reality-opts:
+    public-key: wiu5fVlBM7keSI48Oi3dEnQTR1BnJXgHtXo9xBpAnTA
+    short-id: 16498ac98306ce31
+  flow: xtls-rprx-vision
+- name: By EbraSha 🌌
+  type: vmess
+  server: 172.64.80.1
+  port: 8443
+  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
+  alterId: 0
+  cipher: auto
+  udp: true
+  network: ws
+  tls: true
+  servername: v2ray1.dozapp.xyz
+  ws-opts:
+    path: /lMnsZUN4/
+    headers:
+      Host: v2ray1.dozapp.xyz
+- name: By EbraSha 🔥
+  type: trojan
+  server: 172.67.214.154
+  port: 2096
+  password: '1111'
+  udp: true
+  sni: v2ngfast-v2ngfast-v2ngfast-v2ngfast.jakec78925.workers.dev
+- name: 🌐 Romania | WebSocket | @anonymouskeys
+  type: vless
+  server: 66.225.252.238
+  port: 2096
+  uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
+  udp: true
+  network: ws
+  tls: true
+  servername: sni.111000.cc.cd
+  ws-opts:
+    path: /
+    headers:
+      Host: sni.111000.cc.cd
+- name: 🏁RELAY-172.64.154.102-0709
+  type: vmess
+  server: 172.64.154.102
+  port: 443
+  uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
   alterId: 0
   cipher: auto
   udp: true
   network: ws
   tls: true
   ws-opts:
-    path: /vmess
-    headers: {}
+    path: /dongtaiwang.com
+    headers:
+      Host: clash6.ssr-free.xyz
+- name: By EbraSha ✨
+  type: vmess
+  server: 162.159.152.4
+  port: 443
+  uuid: 2c981164-9b93-4bca-94ff-b78d3f8498d7
+  alterId: 0
+  cipher: auto
+  udp: true
+  network: ws
+  tls: true
+  servername: v2ray.codefyinc.com
+  ws-opts:
+    path: /vmessws
+    headers:
+      Host: v2ray.codefyinc.com
 proxy-groups:
 - name: 🚀 节点选择
   type: select
   proxies:
   - ♻️ 自动选择
   - DIRECT
-  - vless-1008548968
-  - shadowsocks-468218613
   - shadowsocks-696792823
-  - 🇨🇦CA_23|216KB/s|A004-260618
-  - 🇺🇸US_122|190KB/s|A004-260618
-  - shadowsocks-1010926764
-  - 🇺🇸US_31|193KB/s|A004-260618
-  - shadowsocks-1031091985
-  - shadowsocks-1009300993
-  - 🇺🇸US_62|284KB/s|A004-260618
-  - 🇮🇪IE_3|182KB/s|A004-260618
-  - 🇮🇪IE_1|370KB/s|R002-260618
-  - 🇬🇧GB_80|428KB/s|A004-260618
-  - 🇬🇧GB_108|149KB/s|R002-260618
-  - 🇬🇧GB_14|261KB/s|B007-260618
-  - 🇬🇧GB_112|192KB/s|C001-260618
-  - trojan-859600279
-  - DE - zhuhai.uk
-  - shadowsocks-1023619613
-  - 🇩🇪 Join+Telegram:@SolVPN 🇩🇪
-  - vless-1015475542
-  - 🇺🇸US_88|271KB/s|A004-260618
-  - 🇩🇪DE_60|267KB/s|A004-260618
-  - GB - zhuhai.uk 03
-  - trojan-1011377612
+  - shadowsocks-468218514
+  - shadowsocks-468218487
+  - shadowsocks-1033529994
+  - trojan-856210253
+  - trojan-855080375
+  - hysteria2-163614022
+  - 🇫🇷FR_611|151KB/s|A004-260618
+  - trojan-1002282332
+  - 🇫🇷FR_553|176KB/s|B007-260618
+  - vless-1010794858
+  - By EbraSha 📱
+  - hysteria2-985469467
+  - By EbraSha 🐺
+  - 🇫🇷FR_8|132KB/s
+  - 🇫🇷FR_9|157KB/s
+  - By EbraSha 🖥️
+  - 🇫🇷FR_263|191KB/s|C002-260622
+  - 🇫🇷_FR_法国
+  - shadowsocks-522222549
   - shadowsocks-921920790
+  - 🇫🇷FR_305|232KB/s|C002-260622
   - shadowsocks-541381980
-  - 🇳🇱NL_85|445KB/s|A004-260618
-  - 🇬🇧GB_19|114KB/s|A004-260618
-  - 🇩🇪 Join+Telegram:@SolVPN 🇩🇪-2
-  - shadowsocks-522222547
-  - trojan-859609247
-  - hysteria2-468883194
-  - 🇩🇪 Join+Telegram:@SolVPN 🇩🇪-3
+  - 🇫🇷FR_608|179KB/s|A004-260618
   - shadowsocks-812343744
-  - shadowsocks-696792825
-  - shadowsocks-1028203344
-  - 🇮🇪IE_4|205KB/s|S004-260618
   - shadowsocks-717969033
-  - hysteria2-819784927
-  - 🇫🇷 Join+Telegram:@SolVPN 🇫🇷
-  - 🇺🇸US_299|114KB/s|V004-260618
-  - ❓Other_90|393KB/s|A004-260618
+  - 🇮🇪 | @WhiteDNS | IE12|20.7MB/s|DNSOK|GPT⁺-IE
+  - shadowsocks-951685696
+  - hysteria2-468883282
+  - shadowsocks-696780673
+  - '荷兰 #1'
+  - 🌐 Ukraine | WebSocket | @anonymouskeys
+  - shadowsocks-696792832
   - hy2
-  - 🇫🇷FR_252|178KB/s|A004-260618
-  - shadowsocks-819466279
-  - 🇺🇸US_378|194KB/s|P002-260618
+  - 德国
+  - shadowsocks-817206649
+  - 👉🆔@v2ray_configs_pool📡🇳🇱®️The Netherlands©️Dronten🅿️ping:34.73ms
+  - US   HYSTERIA2-TCP-NTLS - Kyonix Networks Limited  144.31.221.57
+  - '波兰 #1'
   - hy2-2
-  - vless-1014131047
-  - vless-1014979807
-  - 🇫🇷FR_247|119KB/s|A004-260618
-  - hysteria2-468018931
-  - hysteria2-868400792
-  - hy2-3
-  - hysteria2-855659702
-  - BR   HYSTERIA2-TCP-NTLS - LARUS Limited  45.192.12.93
-  - hysteria2-768953025
-  - hy2-4
-  - hysteria2-1027317458
+  - 🇮🇹 Italy, Modica | [BL]
   - GB   HYSTERIA2-TCP-NTLS  31.76.30.97
+  - hysteria2-1027317458
+  - hysteria2-855659704
   - TR   HYSTERIA2-TCP-NTLS - PENTECH BILISIM TEKNOLOJILERI SANAYI VE TICARET LIMITED
     SIRKETi  217.60.182.79
-  - shadowsocks-696792832
-  - Germany 🇩🇪
+  - hysteria2-855659702
+  - IE   HYSTERIA2-TCP-NTLS  89.125.156.80
+  - hy2-3
+  - hy2-4
+  - hysteria2-589844075
   - hy2-5
-  - 🇫🇷[www.v2nodes.com] Trojan VPN-FR-15320821
+  - 🇹🇭_TH_泰国
+  - 🇷🇺 Russia | 🌐 | [*CIDR]
+  - 🇫🇮 Finland | [*CIDR]
+  - 🇫🇮 Finland | [*CIDR]-2
+  - 🇷🇺 Russia | 🌐 [*CIDR]
+  - '✅  @vistav2ray  👈👈کانال ما ✅ #1'
+  - 🇰🇿 Kazakhstan | [*CIDR]
+  - 🇫🇮 Finland | [*CIDR]-3
+  - 🇰🇿 Kazakhstan | [*CIDR]-2
+  - 🇮🇪IE-34.241.245.82-0431
+  - 🇧🇬 Bulgaria, Sofia | 🌐 | [BL]
+  - 🇪🇪 Estonia | [*CIDR]
+  - 🇰🇿 Kazakhstan | [*CIDR]-3
+  - 🇰🇿 Kazakhstan | [*CIDR]-4
+  - 🇰🇿 Kazakhstan | [*CIDR]-5
+  - 🇰🇿 Kazakhstan | [*CIDR]-6
+  - 🇫🇷FR_758|235KB/s|C002-260622
+  - 🇰🇿 Kazakhstan | [*CIDR]-7
+  - 🇰🇿 Kazakhstan | [*CIDR]-8
   - end-gfw.com22@kr64
-  - hy2-6
-  - hy2-7
   - vless-860560565
-  - US   HYSTERIA2-TCP-NTLS - DIGITALOCEAN-ASN  159.223.157.129
-  - hy2-8
-  - 🇫🇷FR_55|179KB/s|F003-260618
-  - FR - zhuhai.uk 01
-  - shadowsocks-696792831
+  - 🇰🇿 Kazakhstan | [*CIDR]-9
+  - hy2-6
+  - 🇰🇿 Kazakhstan | [*CIDR]-10
+  - 🇫🇮 Finland | [*CIDR]-4
+  - 👉🆔@v2ray_configs_pool📡🇩🇪®️Germany©️Frankfurt am Main🅿️ping:28.54ms
+  - hysteria2-957013233
+  - 🇫🇷FR_284|323KB/s|C002-260622
+  - 🇰🇿KZ-38.107.234.57-0582
+  - '美国 #2'
+  - By EbraSha 🎯
   - end-gfw.com12@sg89
-  - vless-1019699179
-  - vless-1022611001
-  - hy2-9
-  - hy2-10
-  - 🇺🇸 Join+Telegram:@SolVPN 🇺🇸
-  - 👉🆔@v2ray_configs_pool📡🇳🇱®️The Netherlands©️Dronten🅿️ping:136.58ms
-  - By EbraSha ♦️
-  - ☁ @anonymouskeys
-  - By EbraSha ⚙️
-  - 🌐 Luxembourg | WebSocket | @anonymouskeys
-  - By EbraSha 🚀
-  - 🏁RELAY-172.67.72.172-4096
-  - 🏳[www.v2nodes.com] vless-
-  - 🇯🇵 Join+Telegram:@SolVPN 🇯🇵
-  - 🏁RELAY-190.93.245.126-0643
-  - 🇺🇸 ShatakVPN 495560
-  - 🇨🇦155369 | ⚡️Telegram = t.me/SOSkeyNET
-  - By EbraSha ⚡
-  - ☁ @anonymouskeys-2
-  - By EbraSha 📱
-  - 🌐 Luxembourg | WebSocket | @anonymouskeys-2
-  - By EbraSha 🔌
-  - 🏁RELAY-45.95.241.251-1446
+  - 🇫🇷FR_437|600KB/s|M003-260806
+  - 🇰🇿 Kazakhstan | [*CIDR]-11
+  - hy2-7
+  - 🇫🇷FR_29|244KB/s|C002-260622
+  - By EbraSha 📛
+  - 🇨🇳_CN_中国->🇺🇸_US_美国
+  - By EbraSha 🎛️
+  - 🇨🇳 China, Kunming | [BL]
+  - By EbraSha 🧊
+  - 🇨🇳_CN_中国->🇺🇸_US_美国-2
+  - 🇬🇧 United Kingdom, Gosport | [BL]
+  - By EbraSha 🌌
+  - By EbraSha 🔥
+  - 🌐 Romania | WebSocket | @anonymouskeys
+  - 🏁RELAY-172.64.154.102-0709
+  - By EbraSha ✨
 - name: ♻️ 自动选择
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - vless-1008548968
-  - shadowsocks-468218613
   - shadowsocks-696792823
-  - 🇨🇦CA_23|216KB/s|A004-260618
-  - 🇺🇸US_122|190KB/s|A004-260618
-  - shadowsocks-1010926764
-  - 🇺🇸US_31|193KB/s|A004-260618
-  - shadowsocks-1031091985
-  - shadowsocks-1009300993
-  - 🇺🇸US_62|284KB/s|A004-260618
-  - 🇮🇪IE_3|182KB/s|A004-260618
-  - 🇮🇪IE_1|370KB/s|R002-260618
-  - 🇬🇧GB_80|428KB/s|A004-260618
-  - 🇬🇧GB_108|149KB/s|R002-260618
-  - 🇬🇧GB_14|261KB/s|B007-260618
-  - 🇬🇧GB_112|192KB/s|C001-260618
-  - trojan-859600279
-  - DE - zhuhai.uk
-  - shadowsocks-1023619613
-  - 🇩🇪 Join+Telegram:@SolVPN 🇩🇪
-  - vless-1015475542
-  - 🇺🇸US_88|271KB/s|A004-260618
-  - 🇩🇪DE_60|267KB/s|A004-260618
-  - GB - zhuhai.uk 03
-  - trojan-1011377612
+  - shadowsocks-468218514
+  - shadowsocks-468218487
+  - shadowsocks-1033529994
+  - trojan-856210253
+  - trojan-855080375
+  - hysteria2-163614022
+  - 🇫🇷FR_611|151KB/s|A004-260618
+  - trojan-1002282332
+  - 🇫🇷FR_553|176KB/s|B007-260618
+  - vless-1010794858
+  - By EbraSha 📱
+  - hysteria2-985469467
+  - By EbraSha 🐺
+  - 🇫🇷FR_8|132KB/s
+  - 🇫🇷FR_9|157KB/s
+  - By EbraSha 🖥️
+  - 🇫🇷FR_263|191KB/s|C002-260622
+  - 🇫🇷_FR_法国
+  - shadowsocks-522222549
   - shadowsocks-921920790
+  - 🇫🇷FR_305|232KB/s|C002-260622
   - shadowsocks-541381980
-  - 🇳🇱NL_85|445KB/s|A004-260618
-  - 🇬🇧GB_19|114KB/s|A004-260618
-  - 🇩🇪 Join+Telegram:@SolVPN 🇩🇪-2
-  - shadowsocks-522222547
-  - trojan-859609247
-  - hysteria2-468883194
-  - 🇩🇪 Join+Telegram:@SolVPN 🇩🇪-3
+  - 🇫🇷FR_608|179KB/s|A004-260618
   - shadowsocks-812343744
-  - shadowsocks-696792825
-  - shadowsocks-1028203344
-  - 🇮🇪IE_4|205KB/s|S004-260618
   - shadowsocks-717969033
-  - hysteria2-819784927
-  - 🇫🇷 Join+Telegram:@SolVPN 🇫🇷
-  - 🇺🇸US_299|114KB/s|V004-260618
-  - ❓Other_90|393KB/s|A004-260618
+  - 🇮🇪 | @WhiteDNS | IE12|20.7MB/s|DNSOK|GPT⁺-IE
+  - shadowsocks-951685696
+  - hysteria2-468883282
+  - shadowsocks-696780673
+  - '荷兰 #1'
+  - 🌐 Ukraine | WebSocket | @anonymouskeys
+  - shadowsocks-696792832
   - hy2
-  - 🇫🇷FR_252|178KB/s|A004-260618
-  - shadowsocks-819466279
-  - 🇺🇸US_378|194KB/s|P002-260618
+  - 德国
+  - shadowsocks-817206649
+  - 👉🆔@v2ray_configs_pool📡🇳🇱®️The Netherlands©️Dronten🅿️ping:34.73ms
+  - US   HYSTERIA2-TCP-NTLS - Kyonix Networks Limited  144.31.221.57
+  - '波兰 #1'
   - hy2-2
-  - vless-1014131047
-  - vless-1014979807
-  - 🇫🇷FR_247|119KB/s|A004-260618
-  - hysteria2-468018931
-  - hysteria2-868400792
-  - hy2-3
-  - hysteria2-855659702
-  - BR   HYSTERIA2-TCP-NTLS - LARUS Limited  45.192.12.93
-  - hysteria2-768953025
-  - hy2-4
-  - hysteria2-1027317458
+  - 🇮🇹 Italy, Modica | [BL]
   - GB   HYSTERIA2-TCP-NTLS  31.76.30.97
+  - hysteria2-1027317458
+  - hysteria2-855659704
   - TR   HYSTERIA2-TCP-NTLS - PENTECH BILISIM TEKNOLOJILERI SANAYI VE TICARET LIMITED
     SIRKETi  217.60.182.79
-  - shadowsocks-696792832
-  - Germany 🇩🇪
+  - hysteria2-855659702
+  - IE   HYSTERIA2-TCP-NTLS  89.125.156.80
+  - hy2-3
+  - hy2-4
+  - hysteria2-589844075
   - hy2-5
-  - 🇫🇷[www.v2nodes.com] Trojan VPN-FR-15320821
+  - 🇹🇭_TH_泰国
+  - 🇷🇺 Russia | 🌐 | [*CIDR]
+  - 🇫🇮 Finland | [*CIDR]
+  - 🇫🇮 Finland | [*CIDR]-2
+  - 🇷🇺 Russia | 🌐 [*CIDR]
+  - '✅  @vistav2ray  👈👈کانال ما ✅ #1'
+  - 🇰🇿 Kazakhstan | [*CIDR]
+  - 🇫🇮 Finland | [*CIDR]-3
+  - 🇰🇿 Kazakhstan | [*CIDR]-2
+  - 🇮🇪IE-34.241.245.82-0431
+  - 🇧🇬 Bulgaria, Sofia | 🌐 | [BL]
+  - 🇪🇪 Estonia | [*CIDR]
+  - 🇰🇿 Kazakhstan | [*CIDR]-3
+  - 🇰🇿 Kazakhstan | [*CIDR]-4
+  - 🇰🇿 Kazakhstan | [*CIDR]-5
+  - 🇰🇿 Kazakhstan | [*CIDR]-6
+  - 🇫🇷FR_758|235KB/s|C002-260622
+  - 🇰🇿 Kazakhstan | [*CIDR]-7
+  - 🇰🇿 Kazakhstan | [*CIDR]-8
   - end-gfw.com22@kr64
-  - hy2-6
-  - hy2-7
   - vless-860560565
-  - US   HYSTERIA2-TCP-NTLS - DIGITALOCEAN-ASN  159.223.157.129
-  - hy2-8
-  - 🇫🇷FR_55|179KB/s|F003-260618
-  - FR - zhuhai.uk 01
-  - shadowsocks-696792831
+  - 🇰🇿 Kazakhstan | [*CIDR]-9
+  - hy2-6
+  - 🇰🇿 Kazakhstan | [*CIDR]-10
+  - 🇫🇮 Finland | [*CIDR]-4
+  - 👉🆔@v2ray_configs_pool📡🇩🇪®️Germany©️Frankfurt am Main🅿️ping:28.54ms
+  - hysteria2-957013233
+  - 🇫🇷FR_284|323KB/s|C002-260622
+  - 🇰🇿KZ-38.107.234.57-0582
+  - '美国 #2'
+  - By EbraSha 🎯
   - end-gfw.com12@sg89
-  - vless-1019699179
-  - vless-1022611001
-  - hy2-9
-  - hy2-10
-  - 🇺🇸 Join+Telegram:@SolVPN 🇺🇸
-  - 👉🆔@v2ray_configs_pool📡🇳🇱®️The Netherlands©️Dronten🅿️ping:136.58ms
-  - By EbraSha ♦️
-  - ☁ @anonymouskeys
-  - By EbraSha ⚙️
-  - 🌐 Luxembourg | WebSocket | @anonymouskeys
-  - By EbraSha 🚀
-  - 🏁RELAY-172.67.72.172-4096
-  - 🏳[www.v2nodes.com] vless-
-  - 🇯🇵 Join+Telegram:@SolVPN 🇯🇵
-  - 🏁RELAY-190.93.245.126-0643
-  - 🇺🇸 ShatakVPN 495560
-  - 🇨🇦155369 | ⚡️Telegram = t.me/SOSkeyNET
-  - By EbraSha ⚡
-  - ☁ @anonymouskeys-2
-  - By EbraSha 📱
-  - 🌐 Luxembourg | WebSocket | @anonymouskeys-2
-  - By EbraSha 🔌
-  - 🏁RELAY-45.95.241.251-1446
+  - 🇫🇷FR_437|600KB/s|M003-260806
+  - 🇰🇿 Kazakhstan | [*CIDR]-11
+  - hy2-7
+  - 🇫🇷FR_29|244KB/s|C002-260622
+  - By EbraSha 📛
+  - 🇨🇳_CN_中国->🇺🇸_US_美国
+  - By EbraSha 🎛️
+  - 🇨🇳 China, Kunming | [BL]
+  - By EbraSha 🧊
+  - 🇨🇳_CN_中国->🇺🇸_US_美国-2
+  - 🇬🇧 United Kingdom, Gosport | [BL]
+  - By EbraSha 🌌
+  - By EbraSha 🔥
+  - 🌐 Romania | WebSocket | @anonymouskeys
+  - 🏁RELAY-172.64.154.102-0709
+  - By EbraSha ✨
 rules:
 - MATCH,🚀 节点选择
